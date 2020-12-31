@@ -8,13 +8,87 @@
     box-sizing: border-box;
 }
 
+
+
+li{
+    margin:-3px;
+}
+
+/*Navigation Bar*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    border:solid black;
+    display: block;
+    padding: 8px;
+    background-color: gray;
+    width: auto;
+    height: auto;
+    text-align: center;
+
+
+
+
+}
+
+
+.navbar ul{
+    list-style: none;
+
+}
+.menu > li{
+    position: relative;
+    display: inline-block;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    left: 10px;
+    border: solid black;
+    padding:1px;
+
+    text-align: center;
+
+
+
+}
+.menu > li >a{
+
+    padding: 15px 60px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+.menu li a:hover{
+    color: Red;
+    transition: all .3s;
+}
+.menu{
+    font-family: "titlefont",monospace;
+    letter-spacing: 1px;
+
+}
+
+
+
+
 body{
     background: #313D52;
     font-family:verdana, monospace;
 }
 
+.imagen{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
 .contenedor {
-    width: 80%;
+    width: 100%;
     max-width:1000px;
     margin:0 auto;
     overflow:hidden;
@@ -40,6 +114,7 @@ text-align: center;
     margin-right:2%;
     box-sizing:border-box;
     text-align:justify;
+    margin-top:10px;
 }
 
 .main img {
@@ -69,7 +144,7 @@ footer {
     font-weight: bold;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1545px) {
     .main {
         width: 100%;
     }
@@ -77,6 +152,25 @@ footer {
     aside {
         width: 100%;
     }
+    .menu > li{
+        position: relative;
+        display: flex;
+        left:auto;
+        right:auto;
+        width: auto;
+        margin-left: 15px;
+        margin-right: 15px;
+
+
+    }
+    a {
+        width: 100%;
+    }
+    .menu > li >a{
+        text-align: center;
+    }
+
+
 }
     @media screen and (max-width: 400px) {
         .contenedor {
