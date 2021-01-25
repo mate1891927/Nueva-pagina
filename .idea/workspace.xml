@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0722fc57-6597-4f9a-b9e5-fe521620d1bb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EstiloNuevo.css" beforeDir="false" afterPath="$PROJECT_DIR$/EstiloNuevo.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
         <option value="CSS File" />
       </list>
     </option>
@@ -34,6 +35,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Isrra" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -43,6 +45,12 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Página web owo\coursera-test\Isrra" />
+      <recent name="E:\Página web owo\coursera-test\mate1891927-coursera-test\module4-solution" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -55,6 +63,50 @@
       <workItem from="1609211908973" duration="692000" />
       <workItem from="1609251672933" duration="7431000" />
       <workItem from="1609279834014" duration="884000" />
+      <workItem from="1609455544760" duration="105000" />
+      <workItem from="1609513254227" duration="1232000" />
+      <workItem from="1609531778355" duration="1729000" />
+      <workItem from="1609544582858" duration="4722000" />
+      <workItem from="1609598889011" duration="10493000" />
+      <workItem from="1609610664312" duration="94000" />
+      <workItem from="1609633388856" duration="11538000" />
+      <workItem from="1609682414235" duration="11549000" />
+      <workItem from="1609708074378" duration="5729000" />
+      <workItem from="1609774073358" duration="4481000" />
+      <workItem from="1609802283405" duration="1952000" />
+      <workItem from="1610052038205" duration="1631000" />
+      <workItem from="1610121221969" duration="1833000" />
+      <workItem from="1610139338468" duration="13819000" />
+      <workItem from="1610204074454" duration="5233000" />
+      <workItem from="1610216761833" duration="4335000" />
+      <workItem from="1610225678027" duration="5156000" />
+      <workItem from="1610243860248" duration="2165000" />
+      <workItem from="1610247670693" duration="3226000" />
+      <workItem from="1610303711304" duration="16741000" />
+      <workItem from="1610381188963" duration="11464000" />
+      <workItem from="1610460308547" duration="5195000" />
+      <workItem from="1610480301943" duration="5964000" />
+      <workItem from="1610577015318" duration="767000" />
+      <workItem from="1610639019749" duration="601000" />
+      <workItem from="1610727114476" duration="933000" />
+      <workItem from="1610738116287" duration="425000" />
+      <workItem from="1610744641443" duration="3002000" />
+      <workItem from="1610763831977" duration="5819000" />
+      <workItem from="1610805669720" duration="4185000" />
+      <workItem from="1610834333087" duration="605000" />
+      <workItem from="1610840533513" duration="7410000" />
+      <workItem from="1610856292375" duration="8000" />
+      <workItem from="1610897376882" duration="13787000" />
+      <workItem from="1611090337844" duration="10018000" />
+      <workItem from="1611237379371" duration="12708000" />
+      <workItem from="1611254907047" duration="3094000" />
+      <workItem from="1611327001243" duration="13822000" />
+      <workItem from="1611354747241" duration="14575000" />
+      <workItem from="1611412860306" duration="17360000" />
+      <workItem from="1611501109967" duration="11603000" />
+      <workItem from="1611529064813" duration="7123000" />
+      <workItem from="1611588113553" duration="9305000" />
+      <workItem from="1611610325665" duration="7103000" />
     </task>
     <servers />
   </component>
@@ -62,9 +114,29 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1609279904683">
+    <state x="509" y="234" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1610205933895">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1609279904683" />
+    <state x="509" y="234" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1610205933895" />
+    <state x="379" y="0" key="CommitChangelistDialog2" timestamp="1610746949789">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="379" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1610746949789" />
+    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1611328346820">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1611328346820" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1610746953947">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1610746953947" />
+    <state x="432" y="200" key="run.anything.popup" timestamp="1611532772866">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="432" y="200" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1611532772866" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1611357717614">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1611357717614" />
   </component>
 </project>
