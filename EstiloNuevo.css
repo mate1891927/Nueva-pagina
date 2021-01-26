@@ -9,43 +9,32 @@
 }
 
 .eltodo{
-    max-width: 1900px;
     width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 body{
-    max-width: 1900px;
+    max-width: 2000px;
     width: 100%;
+    overflow-x: hidden;
+    position: relative;
 }
 
-html,body{
-    overflow-x: hidden;
-    color:black;
-    font-family:'Opens Sans',helvetica, monospace;
-    height:100%;
-    width:101%;
-    margin: 0;
-    padding: 0;
-}
 
 header{
-    max-width: 1900px;
     width: 100%;
 }
 
-.header1{
-    max-width: 1900px;
+.barra500{
     width: 100%;
+    max-width: 7000px;
+    height: 50px;
 }
 
-.header2{
-    max-width: 1900px;
+.barra200{
     width: 100%;
-}
-
-.header3{
-    max-width: 1900px;
-    width: 100%;
+    max-width: 2000px;
 }
 
 .iconify10{
@@ -394,8 +383,6 @@ z-index: 2;
 
 }
 
-
-
 .iconify2{
     position: relative;
     margin-left:648px;
@@ -484,7 +471,7 @@ z-index: 2;
     src: url(Fuentes/menulis/menulis.ttf);
 }
 
-@media screen and (min-width: 1950px) and (max-width: 2000px){
+@media screen and (min-width: 1950px){
     .contenedor2{
         max-width: 2500px;
         text-align: center;
