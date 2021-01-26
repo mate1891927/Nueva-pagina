@@ -9,7 +9,26 @@
 }
 
 
+html, body{
+    overflow-x: hidden;
+    overflow-y: visible;
+}
 
+body{
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+html{
+    overflow-x: hidden;
+}
+
+
+body{
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
 
 .iconify10{
     display: none;
@@ -204,11 +223,6 @@ a {
     letter-spacing: 1px;
     font-weight: bold;
 
-
-}
-
-body{
-    overflow-x:hidden;
 
 }
 
