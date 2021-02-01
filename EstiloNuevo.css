@@ -9,8 +9,9 @@ body::-webkit-scrollbar-thumb{
     border-radius: 10px;
 }
 
-.texto2{
-text-decoration: none;
+.texto2 a{
+color:#fff;
+    text-decoration:none;
 }
 
 .texto200{
