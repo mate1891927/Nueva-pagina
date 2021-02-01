@@ -9,10 +9,6 @@ body::-webkit-scrollbar-thumb{
     border-radius: 10px;
 }
 
-.texto2 a{
-color:#fff;
-    text-decoration:none;
-}
 
 .texto200{
     position: relative;
@@ -1992,7 +1988,7 @@ z-index: 2;
     }
 
     .iconify20{
-        left: 48px;
+        left: 65px;
         top: 28px;
     }
 
@@ -2098,7 +2094,7 @@ z-index: 2;
 
         .iconify20{
 
-            left: 32px;
+            left: 50px;
             top: 28px;
         }
 
