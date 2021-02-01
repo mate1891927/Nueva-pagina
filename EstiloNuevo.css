@@ -2083,13 +2083,17 @@ z-index: 2;
         }
 
         .texto2{
+            position: relative;
+            width: 129px;
             font-size: 10px;
-            top:17px;
-            left: -680px;
+            top:31px;
+            left: -590px;
+
         }
 
         .iconify20{
-            left: 12px;
+
+            left: 32px;
             top: 28px;
         }
 
