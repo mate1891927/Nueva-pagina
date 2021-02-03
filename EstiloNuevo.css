@@ -1,4 +1,5 @@
 
+
 body::-webkit-scrollbar{
     width: 7px;
     background:black;
@@ -8,6 +9,7 @@ body::-webkit-scrollbar-thumb{
     background: yellow;
     border-radius: 10px;
 }
+
 
 
 .texto200{
@@ -386,11 +388,22 @@ display: none;
 }
 
 .texto2{
-position: absolute;
+display: none;
+    position: absolute;
     z-index: 2;
 margin-left: 710px;
 margin-top: 13px;
 color: black;
+    font-family: fuente_2,monospace;
+    font-weight: bold;
+}
+
+.texto20{
+    position: absolute;
+    z-index: 2;
+    margin-left: 710px;
+    margin-top: 13px;
+    color: black;
     font-family: fuente_2,monospace;
     font-weight: bold;
 }
@@ -583,7 +596,7 @@ z-index: 2;
         left: 640px;
     }
 
-    .texto2{
+    .texto20{
         position: absolute;
         left: -40px;
     }
@@ -600,7 +613,7 @@ z-index: 2;
     }
 
 
-    .texto2{
+    .texto20{
         left: -80px;
     }
 
@@ -628,7 +641,7 @@ z-index: 2;
     left: 100px;
 }
 
-    .texto2{
+    .texto20{
         left: -105px;
     }
 
@@ -712,8 +725,16 @@ z-index: 2;
 
     .barramenu{
         display: inline-block;
-    left: 40px;
+        top: 590px;
+        left: 45px;
+        width: 70px;
+        z-index: 2;
     }
+
+    #check:checked ~ label{
+        top:-290px;
+    }
+
 }
 
 @media screen and (max-width: 1240px) and (min-width: 1170px){
@@ -761,7 +782,7 @@ z-index: 2;
     left: 90px;
 }
 
-    .texto2{
+    .texto20{
         left: -130px;
     }
 
@@ -820,7 +841,7 @@ z-index: 2;
     left: 90px;
 }
 
-    .texto2{
+    .texto20{
         left: -155px;
     }
 
@@ -877,7 +898,7 @@ z-index: 2;
         left: 60px;
     }
 
-    .texto2{
+    .texto20{
         left: -185px;
     }
 
@@ -904,7 +925,7 @@ z-index: 2;
         left: 55px;
     }
 
-    .texto2{
+    .texto20{
         left: -210px;
     }
 
@@ -932,7 +953,7 @@ z-index: 2;
         left: 45px;
     }
 
-    .texto2{
+    .texto20{
         left: -230px;
     }
 
@@ -984,8 +1005,13 @@ z-index: 2;
     }
 
     .texto2{
+        display: inline-block;
         left: -255px;
         z-index: 2;
+    }
+
+    .texto20{
+        display: none;
     }
 
     .iconify2{
@@ -1017,6 +1043,7 @@ z-index: 2;
 
 
     .texto1{
+        font-size: 20px;
         position: absolute;
         left: 75px;
         top: 50px;
@@ -1027,19 +1054,28 @@ z-index: 2;
         top: 58px;
     }
 
+    .iconify11{
+        width: 30px;
+    }
 
     .texto2{
+        font-size: 20px;
         position: absolute;
         top: 12px;
-        left: -500px;
+        left: -440px;
     }
 
     .iconify20{
-        left: 180px;
+        left: 235px;
         top: 23px;
     }
 
+    .iconify21{
+        width: 30px;
+    }
+
     .texto3{
+        font-size: 20px;
         position: relative;
         z-index: 2;
         top: 25px;
@@ -1047,8 +1083,12 @@ z-index: 2;
     }
 
     .iconify30{
-        left: 545px;
-        top: 20px;
+        left: 535px;
+        top: 18px;
+    }
+
+    .iconify31{
+        width: 42px;
     }
 
     .foto7{
@@ -1058,14 +1098,7 @@ z-index: 2;
     }
 }
 
-@media screen and (max-width: 870px){
-    .partewea{
-    margin-left: -65px;
-    }
-    .texto3{
-        left: -400px;
-    }
-}
+
 
 
 
@@ -1157,6 +1190,14 @@ z-index: 2;
     #check:checked ~ .barra12{
         margin-top: -290px;
     }
+
+    label{
+        top: -680px;
+    }
+
+    #check:checked ~ label{
+        top: -970px;
+    }
 }
 
 @media screen and (max-width: 905px){
@@ -1165,6 +1206,55 @@ z-index: 2;
     }
     .menu2{
         left: 125px;
+    }
+
+    .texto1{
+        font-size: 20px;
+        position: absolute;
+        left: 15px;
+        top: 50px;
+    }
+
+    .iconify10{
+        left: 245px;
+        top: 58px;
+    }
+
+    .iconify11{
+        width: 30px;
+    }
+
+    .texto2{
+        font-size: 20px;
+        position: absolute;
+        top: 12px;
+        left: -500px;
+    }
+
+    .iconify20{
+        left: 180px;
+        top: 23px;
+    }
+
+    .iconify21{
+        width: 30px;
+    }
+
+    .texto3{
+        font-size: 20px;
+        position: relative;
+        z-index: 2;
+        top: 25px;
+        left: -530px;
+    }
+
+    .iconify30{
+        left: 470px;
+        top: 18px;
+    }
+
+    .iconify31{
+        width: 42px;
     }
 }
 
@@ -1177,31 +1267,31 @@ z-index: 2;
     }
 
     .texto1{
-        left:-5px;
+        left:-45px;
         top: 50px;
     }
 
     .iconify10{
-        left: 225px;
+        left: 185px;
     }
 
     .texto2{
         position: absolute;
         top: 12px;
-        left: -550px;
+        left: -560px;
     }
 
     .iconify20{
-        left: 130px;
+        left: 120px;
     }
 
     .texto3{
         top: 25px;
-        left: -485px;
+        left: -590px;
     }
 
     .iconify30{
-        left: 460px;
+        left: 410px;
     }
 
 }
@@ -1243,36 +1333,52 @@ z-index: 2;
     }
 
     .texto1{
+        font-size: 15px;
         position: absolute;
-        left: 1px;
-        top: 50px;
+        left: -10px;
+        top: 55px;
     }
 
     .iconify10{
-        left: 230px;
-        top: 58px;
+        left: 225px;
+        top: 65px;
     }
+
+    .iconify11{
+        width: 25px;
+    }
+
     .texto2{
+        font-size: 15px;
         position: absolute;
-        top:13px;
-        left: -520px;
+        top:19px;
+        left: -510px;
     }
 
     .iconify20{
-        left: 160px;
-        top: 23px;
+        left: 170px;
+        top: 29px;
+    }
+
+    .iconify21{
+        width: 25px;
     }
 
     .texto3{
+        font-size: 15px;
         position: absolute;
         z-index: 2;
-        top: 13px;
-        left: -550px;
+        top: 18px;
+        left: -615px;
     }
 
     .iconify30{
-        left: 460px;
-        top: 20px;
+        left: 395px;
+        top: 23px;
+    }
+
+    .iconify31{
+        width: 36px;
     }
 
     .foto7{
@@ -1291,32 +1397,32 @@ z-index: 2;
 @media screen and (max-width: 745px){
 
     .texto1{
-        left: -55px;
-        top: 50px;
+        left: -35px;
+
     }
 
     .iconify10{
-        left: 175px;
-        top: 58px;
+        left: 195px;
+
     }
     .texto2{
-        top:13px;
-        left: -570px;
+
+        left: -540px;
     }
 
     .iconify20{
-        left: 110px;
-        top: 23px;
+        left: 140px;
+
     }
 
     .texto3{
-        top: 13px;
-        left: -610px;
+
+        left: -640px;
     }
 
     .iconify30{
-        left: 400px;
-        top: 20px;
+        left: 370px;
+
     }
 
     .foto7{
@@ -1332,32 +1438,31 @@ z-index: 2;
 @media screen and (max-width: 695px){
 
     .texto1{
-        left: -55px;
-        top: 50px;
+        left: -65px;
+
     }
 
     .iconify10{
-        left: 175px;
-        top: 58px;
+        left: 165px;
+
     }
     .texto2{
-        top:13px;
+
         left: -570px;
     }
 
     .iconify20{
         left: 110px;
-        top: 23px;
+
     }
 
     .texto3{
-        top: 13px;
-        left: -610px;
+
+        left: -630px;
     }
 
     .iconify30{
-        left: 400px;
-        top: 20px;
+        left: 380px;
     }
 
     .foto7{
@@ -1516,6 +1621,14 @@ z-index: 2;
         margin-left: 150px;
         width: 130px;
     }
+
+    label{
+        top: -662px;
+    }
+
+    #check:checked ~ label{
+        top: -920px;
+    }
 }
 
 @media screen and (max-width: 570px){
@@ -1667,7 +1780,7 @@ z-index: 2;
     }
 
     .iconify10{
-        left: 128px;
+        left: 133px;
         top: 56px;
     }
 
@@ -1720,10 +1833,6 @@ z-index: 2;
         top: 285px;
     }
 
-    label{
-        top: 0;
-    }
-
     .barramenu{
         width: 40px;
     }
@@ -1743,6 +1852,17 @@ z-index: 2;
     .barra13{
         height: 685px;
     }
+
+    label{
+        top: -665px;
+    }
+
+    #check:checked ~ label{
+top: -900px;
+    }
+
+
+
 }
 
 @media screen and (max-width: 480px){
@@ -1753,7 +1873,7 @@ z-index: 2;
     }
 
     .iconify10{
-        left: 108px;
+        left: 114px;
         top: 56px;
     }
 
@@ -1807,7 +1927,7 @@ z-index: 2;
     }
 
     label{
-        bottom: 5px;
+        top: -668px;
     }
 
     .barramenu{
@@ -1862,7 +1982,7 @@ z-index: 2;
     }
 
     .iconify10{
-        left: 108px;
+        left: 114px;
         top: 56px;
     }
 
@@ -1924,10 +2044,6 @@ z-index: 2;
         width: 150px;
     }
 
-    label{
-        bottom: 5px;
-    }
-
     .barramenu{
         width: 40px;
     }
@@ -1973,7 +2089,7 @@ z-index: 2;
     }
 
     .iconify10{
-        left: 78px;
+        left: 84px;
         top: 56px;
     }
 
@@ -2026,10 +2142,6 @@ z-index: 2;
         top: 307px;
     }
 
-    label{
-        bottom: 5px;
-    }
-
     .barramenu{
         width: 40px;
     }
@@ -2068,107 +2180,653 @@ z-index: 2;
 }
 
 @media screen and (max-width: 405px){
-        .texto1{
-            font-size: 10px;
-            left: -160px;
-            top: 45px;
-        }
+    .texto1{
+        font-size: 10px;
+        left: -170px;
+        top: 45px;
+    }
 
-        .iconify10{
-            left: 78px;
-            top: 56px;
-        }
+    .iconify10{
+        left: 74px;
+        top: 56px;
+    }
 
-        .iconify11{
-            width: 17px;
-        }
+    .texto2{
+        font-size: 10px;
+        top:17px;
+        left: -650px;
+    }
 
-        .texto2{
-            position: relative;
-            width: 129px;
-            font-size: 10px;
-            top:31px;
-            left: -590px;
+    .iconify20{
+        left: 55px;
+        top: 28px;
+    }
 
-        }
+    .texto3{
+        font-size: 10px;
+        top: 17px;
+        left: -835px;
+    }
 
-        .iconify20{
+    .iconify30{
+        left: 188px;
+        top: 26px;
+    }
 
-            left: 50px;
-            top: 28px;
-        }
 
-        .iconify21{
-            width: 17px;
-        }
+    .foto7{
+        left: 340px;
+        top:88px;
+    }
 
-        .texto3{
-            font-size: 10px;
-            top: 17px;
-            left: -805px;
-        }
+    .responsive{
+        width: 63px;
+    }
 
-        .iconify30{
-            left: 218px;
-            top: 26px;
-        }
+    .menu2 li{
+        left: 490px;
+        font-size: 18px;
+        top: 307px;
+    }
 
-        .iconify31{
-            width: 22px;
-        }
 
-        .foto7{
-            left: 330px;
-            top:88px;
-        }
+    .barramenu{
+        width: 40px;
+    }
 
-        .responsive{
-            width: 63px;
-        }
+    .barra12{
+        margin-top:-600px;
+        transition: all 1000ms;
+        overflow: hidden;
+        max-width: 2000px;
+        width: 100%;
+    }
 
-        .menu2 li{
-            left: 490px;
-            font-size: 18px;
-            top: 307px;
-        }
+    .barra4000{
+        height: 85px;
+    }
 
-        label{
-            bottom: 5px;
-        }
+    .barra13{
+        margin-top:10px;
+    }
 
-        .barramenu{
-            width: 40px;
-        }
+    .barramenu{
+        width: 30px;
+    }
 
-        .barra12{
-            margin-top:-600px;
-            transition: all 1000ms;
-            overflow: hidden;
-            max-width: 2000px;
-            width: 100%;
-        }
+    #check:checked ~ .barra12{
+        margin-bottom: -30px;
+    }
 
-        .barra4000{
-            height: 85px;
-        }
+    .barra12{
+        margin-bottom: -4px;
+    }
 
-        .barra13{
-            margin-top:10px;
-        }
+}
+@media screen and (max-width: 385px){
+    .texto1{
+        font-size: 10px;
+        left: -170px;
+        top: 45px;
+    }
 
-        .barramenu{
-            width: 30px;
-        }
+    .iconify10{
+        left: 74px;
+        top: 56px;
+    }
 
-        #check:checked ~ .barra12{
-            margin-bottom: -30px;
-        }
+    .iconify11{
+        width: 17px;
+    }
 
-        .barra12{
-            margin-bottom: -4px;
-        }
+    .texto2{
+        font-size: 10px;
+        top:17px;
+        left: -650px;
+    }
 
-        .menu2{
-            margin-left: -480px;
-        }
+    .iconify20{
+        left: 55px;
+        top: 28px;
+    }
+
+    .iconify21{
+        width: 17px;
+    }
+
+    .texto3{
+        font-size: 10px;
+        top: 17px;
+        left: -845px;
+    }
+
+    .iconify30{
+        left: 178px;
+        top: 26px;
+    }
+
+    .iconify31{
+        width: 22px;
+    }
+
+    .foto7{
+        left: 320px;
+        top:88px;
+    }
+
+    .responsive{
+        width: 63px;
+    }
+
+    .menu2 li{
+        left: 480px;
+        font-size: 18px;
+        top: 307px;
+    }
+
+
+    .barramenu{
+        width: 40px;
+    }
+
+    .barra12{
+        margin-top:-600px;
+        transition: all 1000ms;
+        overflow: hidden;
+        max-width: 2000px;
+        width: 100%;
+    }
+
+    .barra4000{
+        height: 85px;
+    }
+
+    .barra13{
+        margin-top:10px;
+    }
+
+    .barramenu{
+        width: 30px;
+    }
+
+    #check:checked ~ .barra12{
+        margin-bottom: -30px;
+    }
+
+    .barra12{
+        margin-bottom: -4px;
+    }
+
+}
+
+@media screen and (max-width: 365px){
+    .texto1{
+        font-size: 10px;
+        left: -185px;
+        top: 45px;
+    }
+
+    .iconify10{
+        left: 60px;
+        top: 56px;
+    }
+
+    .iconify11{
+        width: 17px;
+    }
+
+    .texto2{
+        font-size: 10px;
+        top:17px;
+        left: -660px;
+    }
+
+    .iconify20{
+        left: 45px;
+        top: 28px;
+    }
+
+    .iconify21{
+        width: 17px;
+    }
+
+    .texto3{
+        font-size: 10px;
+        top: 17px;
+        left: -855px;
+    }
+
+    .iconify30{
+        left: 168px;
+        top: 26px;
+    }
+
+    .iconify31{
+        width: 22px;
+    }
+
+    .foto7{
+        left: 300px;
+        top:88px;
+    }
+
+    .responsive{
+        width: 63px;
+    }
+
+    .menu2 li{
+        left: 470px;
+        font-size: 18px;
+        top: 307px;
+    }
+
+
+    .barramenu{
+        width: 40px;
+    }
+
+    .barra12{
+        margin-top:-600px;
+        transition: all 1000ms;
+        overflow: hidden;
+        max-width: 2000px;
+        width: 100%;
+    }
+
+    .barra4000{
+        height: 85px;
+    }
+
+    .barra13{
+        margin-top:10px;
+    }
+
+    .barramenu{
+        width: 30px;
+    }
+
+    #check:checked ~ .barra12{
+        margin-bottom: -30px;
+    }
+
+    .barra12{
+        margin-bottom: -4px;
+    }
+
+}
+
+@media screen and (max-width: 345px){
+    .texto1{
+        font-size: 10px;
+        left: -185px;
+        top: 45px;
+    }
+
+    .iconify10{
+        left: 60px;
+        top: 56px;
+    }
+
+    .iconify11{
+        width: 17px;
+    }
+
+    .texto2{
+        font-size: 10px;
+        top:17px;
+        left: -660px;
+    }
+
+    .iconify20{
+        left: 45px;
+        top: 28px;
+    }
+
+    .iconify21{
+        width: 17px;
+    }
+
+    .texto3{
+        font-size: 10px;
+        top: 17px;
+        left: -855px;
+    }
+
+    .iconify30{
+        left: 168px;
+        top: 26px;
+    }
+
+    .iconify31{
+        width: 22px;
+    }
+
+    .foto7{
+        left: 280px;
+        top:88px;
+    }
+
+    .responsive{
+        width: 63px;
+    }
+
+    .menu2 li{
+        left: 460px;
+        font-size: 18px;
+        top: 307px;
+    }
+
+
+    .barramenu{
+        width: 40px;
+    }
+
+    .barra12{
+        margin-top:-600px;
+        transition: all 1000ms;
+        overflow: hidden;
+        max-width: 2000px;
+        width: 100%;
+    }
+
+    .barra4000{
+        height: 85px;
+    }
+
+    .barra13{
+        margin-top:10px;
+    }
+
+    .barramenu{
+        width: 30px;
+    }
+
+    #check:checked ~ .barra12{
+        margin-bottom: -30px;
+    }
+
+    .barra12{
+        margin-bottom: -4px;
+    }
+
+}
+
+@media screen and (max-width: 325px){
+    .texto1{
+        font-size: 10px;
+        left: -195px;
+        top: 45px;
+    }
+
+    .iconify10{
+        left: 50px;
+        top: 56px;
+    }
+
+    .iconify11{
+        width: 17px;
+    }
+
+    .texto2{
+        font-size: 10px;
+        top:17px;
+        left: -680px;
+    }
+
+    .iconify20{
+        left: 25px;
+        top: 28px;
+    }
+
+    .iconify21{
+        width: 17px;
+    }
+
+    .texto3{
+        font-size: 10px;
+        top: 17px;
+        left: -875px;
+    }
+
+    .iconify30{
+        left: 148px;
+        top: 26px;
+    }
+
+    .iconify31{
+        width: 22px;
+    }
+
+    .foto7{
+        left: 260px;
+        top:88px;
+    }
+
+    .responsive{
+        width: 63px;
+    }
+
+    .menu2 li{
+        left: 450px;
+        font-size: 18px;
+        top: 307px;
+    }
+
+
+    .barramenu{
+        width: 40px;
+    }
+
+    .barra12{
+        margin-top:-600px;
+        transition: all 1000ms;
+        overflow: hidden;
+        max-width: 2000px;
+        width: 100%;
+    }
+
+    .barra4000{
+        height: 85px;
+    }
+
+    .barra13{
+        margin-top:10px;
+    }
+
+    .barramenu{
+        width: 30px;
+    }
+
+    #check:checked ~ .barra12{
+        margin-bottom: -30px;
+    }
+
+    .barra12{
+        margin-bottom: -4px;
+    }
+
+}
+
+@media screen and (max-width: 305px){
+    .texto1{
+        font-size: 10px;
+        left: -205px;
+        top: 45px;
+    }
+
+    .iconify10{
+        left: 40px;
+        top: 56px;
+    }
+
+    .iconify11{
+        width: 17px;
+    }
+
+    .texto2{
+        font-size: 10px;
+        top:17px;
+        left: -670px;
+    }
+
+    .iconify20{
+        left: 35px;
+        top: 28px;
+    }
+
+    .iconify21{
+        width: 17px;
+    }
+
+    .texto3{
+        font-size: 10px;
+        top: 17px;
+        left: -895px;
+    }
+
+    .iconify30{
+        left: 132px;
+        top: 26px;
+    }
+
+    .iconify31{
+        width: 22px;
+    }
+
+    .foto7{
+        left: 240px;
+        top:88px;
+    }
+
+    .responsive{
+        width: 63px;
+    }
+
+    .menu2 li{
+        left: 440px;
+        font-size: 18px;
+        top: 307px;
+    }
+
+
+    .barramenu{
+        width: 40px;
+    }
+
+    .barra12{
+        margin-top:-600px;
+        transition: all 1000ms;
+        overflow: hidden;
+        max-width: 2000px;
+        width: 100%;
+    }
+
+    .barra4000{
+        height: 85px;
+    }
+
+    .barra13{
+        margin-top:10px;
+    }
+
+    .barramenu{
+        width: 30px;
+    }
+
+    #check:checked ~ .barra12{
+        margin-bottom: -30px;
+    }
+
+    .barra12{
+        margin-bottom: -4px;
+    }
+
+}
+
+@media screen and (max-width: 285px){
+    .texto1{
+        font-size: 10px;
+        left: -215px;
+        top: 45px;
+    }
+
+    .iconify10{
+        left: 30px;
+        top: 56px;
+    }
+
+    .texto2{
+        font-size: 10px;
+        top:17px;
+        left: -680px;
+    }
+
+    .iconify20{
+        left: 25px;
+        top: 28px;
+    }
+
+    .texto3{
+        font-size: 10px;
+        top: 17px;
+        left: -905px;
+    }
+
+    .iconify30{
+        left: 122px;
+        top: 26px;
+    }
+
+
+    .foto7{
+        left: 230px;
+        top:88px;
+    }
+
+    .responsive{
+        width: 63px;
+    }
+
+    .menu2 li{
+        left: 545px;
+        font-size: 18px;
+        top: 307px;
+    }
+
+
+    .barramenu{
+        width: 40px;
+    }
+
+    .barra12{
+        margin-top:-600px;
+        transition: all 1000ms;
+        overflow: hidden;
+        max-width: 2000px;
+        width: 100%;
+    }
+
+    .barra4000{
+        height: 85px;
+    }
+
+    .barra13{
+        margin-top:10px;
+    }
+
+    .barramenu{
+        width: 30px;
+    }
+
+    #check:checked ~ .barra12{
+        margin-bottom: -30px;
+    }
+
+    .barra12{
+        margin-bottom: -4px;
+    }
+
+    .menu2{
+        margin-left: -600px;
+    }
 }
