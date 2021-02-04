@@ -10,7 +10,9 @@ body::-webkit-scrollbar-thumb{
     border-radius: 10px;
 }
 
-
+.enlace{
+    color: black;
+}
 
 .texto200{
     position: relative;
@@ -1062,11 +1064,11 @@ z-index: 2;
         font-size: 20px;
         position: absolute;
         top: 12px;
-        left: -440px;
+        left: -450px;
     }
 
     .iconify20{
-        left: 235px;
+        left: 245px;
         top: 23px;
     }
 
@@ -1228,7 +1230,7 @@ z-index: 2;
         font-size: 20px;
         position: absolute;
         top: 12px;
-        left: -500px;
+        left: -515px;
     }
 
     .iconify20{
@@ -1278,7 +1280,7 @@ z-index: 2;
     .texto2{
         position: absolute;
         top: 12px;
-        left: -560px;
+        left: -575px;
     }
 
     .iconify20{
@@ -1352,7 +1354,7 @@ z-index: 2;
         font-size: 15px;
         position: absolute;
         top:19px;
-        left: -510px;
+        left: -525px;
     }
 
     .iconify20{
@@ -1407,7 +1409,7 @@ z-index: 2;
     }
     .texto2{
 
-        left: -540px;
+        left: -555px;
     }
 
     .iconify20{
@@ -1448,7 +1450,7 @@ z-index: 2;
     }
     .texto2{
 
-        left: -570px;
+        left: -585px;
     }
 
     .iconify20{
@@ -1496,7 +1498,7 @@ z-index: 2;
     }
     .texto2{
         top:13px;
-        left: -610px;
+        left: -625px;
     }
 
     .iconify20{
@@ -1551,7 +1553,7 @@ z-index: 2;
     }
 
     .iconify20{
-        left: 70px;
+        left: 90px;
         top: 27px;
     }
 
@@ -1661,11 +1663,11 @@ z-index: 2;
 
     .texto2{
         top:17px;
-        left: -600px;
+        left: -615px;
     }
 
     .iconify20{
-        left: 80px;
+        left: 85px;
         top: 27px;
     }
 
@@ -1718,11 +1720,11 @@ z-index: 2;
 
     .texto2{
         top:17px;
-        left: -620px;
+        left: -625px;
     }
 
     .iconify20{
-        left: 60px;
+        left: 75px;
         top: 27px;
     }
 
@@ -1795,7 +1797,7 @@ z-index: 2;
     }
 
     .iconify20{
-        left: 78px;
+        left: 96px;
         top: 28px;
     }
 
@@ -1888,7 +1890,7 @@ top: -900px;
     }
 
     .iconify20{
-        left: 58px;
+        left: 75px;
         top: 28px;
     }
 
@@ -1993,12 +1995,12 @@ top: -900px;
     .texto2{
         font-size: 10px;
         top:17px;
-        left: -620px;
+        left: -624px;
         margin-right: 50px;
     }
 
     .iconify20{
-        left: 68px;
+        left: 82px;
         top: 28px;
     }
 
