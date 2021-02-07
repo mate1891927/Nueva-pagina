@@ -10,6 +10,28 @@ body::-webkit-scrollbar-thumb{
     border-radius: 10px;
 }
 
+.marcas{
+    position: relative;
+    top: 320px;
+    text-align: center;
+    font-size: 45px;
+    font-weight: lighter;
+    color: #FFFFFF;
+    font-family: fuente_5, monospace;
+
+}
+
+.linea{
+position: absolute;
+    top: 1020px;
+}
+
+.linea2{
+    width: 100%;
+    height: 250px;
+    max-width: 3000px;
+}
+
 .enlace{
     color: black;
 }
@@ -17,6 +39,7 @@ body::-webkit-scrollbar-thumb{
 .texto200{
     position: relative;
     top: 1100px;
+    margin-top: 320px;
 }
 
 .barramenu{
@@ -57,16 +80,25 @@ body{
     padding-right:0;
 }
 
-.ir-arriba {
-display: none;
-    padding:20px;
-    background:#024959;
-    font-size:20px;
-    color:#fff;
-    cursor:pointer;
+.boton1{
     position: fixed;
-    bottom:40px;
-    right:40px;
+    top:550px;
+    left: 30px;
+    margin: 0 10px;
+    transition: 0.5s;
+    opacity: 0.7;
+    z-index: 1;
+
+}
+
+.boton1 img{
+    display: block;
+    border-radius: 5px;
+}
+
+.boton1:hover{
+    transform:scale(1.1);
+    z-index: 2;
 }
 
 header{
@@ -297,6 +329,7 @@ a {
     font-weight: bold;
 
 
+
 }
 
 *{
@@ -306,7 +339,6 @@ padding: 0;
 
 body{
 background-image: url("Imágenes/marble_texture_gray_146385_2560x1600.png");
-
     background-repeat: unset;
 }
 
@@ -316,13 +348,8 @@ background-image: url("Imágenes/marble_texture_gray_146385_2560x1600.png");
     max-width: 1000px;
     overflow: hidden;
 }
-.contenedor2{
-    width: auto;
-    max-width: 2000px;
-    margin:-20px;
-    overflow: hidden;
 
-}
+
 
 .main{
 width: 100%;
@@ -485,8 +512,14 @@ z-index: 2;
 
 .foto4{
     position: absolute;
-    margin-left: 1285px;
-    margin-top:30px;
+    margin-left: 1300px;
+    margin-top:35px;
+    transition: 0.5s;
+}
+
+.foto4:hover{
+    transform:scale(1.1);
+    z-index: 2;
 }
 
 
@@ -560,14 +593,121 @@ z-index: 2;
     src: url(Fuentes/menulis/menulis.ttf);
 }
 
-@media screen and (min-width: 1950px){
-    .contenedor2{
-        max-width: 2500px;
-        text-align: center;
-        margin-right: auto;
-        margin-left: auto;
-    }
+@font-face {
+    font-family: fuente_5;
+    src: url(Fuentes/ageo/AgeoPersonalUse-Medium.otf);
 }
+
+
+
+
+
+.container{
+    width: 90%;
+    position: relative;
+    top: 400px;
+    max-width: 1600px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 4fr);
+    grid-gap: 5px;
+}
+
+
+.item{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 300ms;
+
+    position: relative;
+}
+
+
+.item::after {
+    content: "";
+    background-color: rgba(179, 229, 252, .1);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    transform: scale(0);
+    transition: all 300ms;
+    opacity: 0;
+}
+
+.item:hover:after{
+    opacity: 1;
+    transform: scale(1);
+}
+
+.item:hover {
+    transform: scale(1.05);
+}
+
+
+
+
+.item-img{
+    max-width: 100%;
+    display: block;
+}
+
+.bomag{
+    max-width: 100%;
+    display: block;
+}
+
+.caterpillar{
+    max-width: 60%;
+    display: block;
+}
+
+.ingersol{
+    max-width: 120%;
+    display: block;
+}
+
+.jcb{
+    max-width: 82%;
+    display: block;
+}
+
+.john{
+    max-width: 85%;
+    display: block;
+}
+
+.komatsu{
+    max-width: 120%;
+    display: block;
+}
+
+.linkb{
+    max-width: 100%;
+    display: block;
+}
+
+.newh{
+    max-width: 50%;
+    display: block;
+}
+
+.terex{
+    max-width: 100%;
+    display: block;
+}
+
+.zoomlion{
+    max-width: 110%;
+    display: block;
+}
+
+
 
 @media screen and (max-width: 1521px){
 .forma1{
@@ -588,7 +728,7 @@ z-index: 2;
     }
 
     .foto4{
-        right: 5px;
+        right: 15px;
     }
 }
 
@@ -678,10 +818,6 @@ z-index: 2;
 .contenedor{
     max-width: 2000px;
 }
-    .contenedor2{
-        max-width: 5000px;
-
-    }
     .navbar {
         text-align: center;
         margin-right: auto;
@@ -2841,5 +2977,16 @@ top: -900px;
 
     .menu2{
         margin-left: -600px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .container{
+        top: -540px;
+    }
+
+    .marcas{
+        top: -570px;
+        font-size: 20px;
     }
 }

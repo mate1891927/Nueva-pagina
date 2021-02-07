@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0722fc57-6597-4f9a-b9e5-fe521620d1bb" name="Default Changelist" comment=".">
+    <list default="true" id="0722fc57-6597-4f9a-b9e5-fe521620d1bb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EstiloNuevo.css" beforeDir="false" afterPath="$PROJECT_DIR$/EstiloNuevo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Imágenes/Case logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/Imágenes/Case logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Imágenes/Caterpillar logo 2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Imágenes/Caterpillar logo 2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Imágenes/John Deere logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/Imágenes/John Deere logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Imágenes/Komatsu logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/Imágenes/Komatsu logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Imágenes/Link Belt logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/Imágenes/Link Belt logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Imágenes/Logos.png" beforeDir="false" afterPath="$PROJECT_DIR$/Imágenes/Logos.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Imágenes/New Holland logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/Imágenes/New Holland logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Imágenes/Terex logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/Imágenes/Terex logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Imágenes/Zoomlion logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/Imágenes/Zoomlion logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,9 +26,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -128,7 +137,12 @@
       <workItem from="1612470004424" duration="15000" />
       <workItem from="1612478790895" duration="2297000" />
       <workItem from="1612489847883" duration="2270000" />
-      <workItem from="1612533705819" duration="1659000" />
+      <workItem from="1612533705819" duration="11532000" />
+      <workItem from="1612568229329" duration="4520000" />
+      <workItem from="1612573360278" duration="604000" />
+      <workItem from="1612622502477" duration="13188000" />
+      <workItem from="1612652239371" duration="6476000" />
+      <workItem from="1612714731625" duration="12558000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1611617828931</created>
@@ -326,7 +340,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612454848068</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary=".">
+      <created>1612539330179</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1612539330180</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -341,22 +362,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="509" y="234" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1610205933895" />
-    <state x="572" y="0" key="CommitChangelistDialog2" timestamp="1612479020519">
+    <state x="572" y="0" key="CommitChangelistDialog2" timestamp="1612539328574">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="572" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1612479020519" />
+    <state x="572" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1612539328574" />
     <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1611328346820">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1611328346820" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1612454853942">
+    <state width="628" height="446" key="SwitcherDM" timestamp="1612657516866">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1612454853942" />
-    <state x="432" y="200" key="run.anything.popup" timestamp="1611975370733">
+    <state width="628" height="446" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1612657516866" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1612539333130">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="432" y="200" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1611975370733" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1612539333130" />
+    <state x="432" y="200" key="run.anything.popup" timestamp="1612630726923">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="432" y="200" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1612630726923" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1611357717614">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
