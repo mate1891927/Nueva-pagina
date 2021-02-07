@@ -673,7 +673,7 @@ z-index: 2;
 }
 
 .jcb{
-    max-width: 82%;
+    max-width: 75%;
     display: block;
 }
 
@@ -683,7 +683,7 @@ z-index: 2;
 }
 
 .komatsu{
-    max-width: 120%;
+    max-width: 140%;
     display: block;
 }
 
@@ -2980,17 +2980,28 @@ top: -900px;
     }
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 470px){
     .container{
-        top: -540px;
+        top: -470px;
     }
 
     .marcas{
-        top: -570px;
+        top: -510px;
         font-size: 20px;
     }
 
     .boton2{
         width: 30px;
+    }
+}
+
+@media screen and (max-width: 444px){
+    .container{
+        top: -490px;
+    }
+
+    .marcas{
+        top: -520px;
+        font-size: 20px;
     }
 }
