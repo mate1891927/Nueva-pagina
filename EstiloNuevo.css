@@ -1,20 +1,17 @@
 
-
-body::-webkit-scrollbar{
+body::-webkit-scrollbar {
     width: 7px;
-    background:black;
+    background: black;
 }
 
-body::-webkit-scrollbar-thumb{
-    background: yellow;
-    border-radius: 10px;
+body::-webkit-scrollbar-thumb {
+    background: #f5cf01;
+
 }
 
-
-
-.marcas{
+.marcas {
     position: relative;
-    top: 400px;
+    top: 800px;
     text-align: center;
     font-size: 55px;
     font-weight: lighter;
@@ -24,48 +21,280 @@ body::-webkit-scrollbar-thumb{
 
 }
 
-.linea{
-position: absolute;
-    top: 1020px;
-}
-
-.linea2{
-    width: 100%;
-    height: 250px;
-    max-width: 3000px;
-}
-
-.enlace{
+.enlace {
     color: black;
 }
 
-.texto200{
+.texto200 {
     position: relative;
     top: 2800px;
     margin-top: 320px;
 }
 
-.gps{
+
+footer {
+    position: absolute;
+    height: 725px;
+    width: 100%;
+    bottom: -1900px;
+    display: flex;
+    align-items: center;
+    background-image: url(Imágenes/Wallpaper.png);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.fonditoo {
     position: relative;
-    top: 1500px;
-    text-align: center;
-
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
+    max-width: 1500px;
 
 }
 
-.gps2{
-    width: 60%;
+
+.fondazo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 40px;
+
 }
 
-.barramenu{
+body {
+    min-height: calc(100vh - 100px - 300px);
+}
+
+
+.contacto {
+    font-family: fuente_10, monospace;
+    font-size: 2.6vw;
+    position: absolute;
+    top: 105px;
+    right: 80px;
+    padding: 4px;
+    transition: all 0.3s;
+    text-shadow: 1px 1px black;
+    cursor: pointer;
+}
+
+.direccionn{
+    width:1000px;
+}
+
+.contactoo {
+    color: #77736c;
+}
+
+.contacto:hover {
+    margin-left: -10px;
+    border-bottom: 5px solid white;
+    opacity: 0.8;
+
+}
+
+.titdireccion {
+    position: absolute;
+    bottom: 410px;
+    right: 85px;
+    font-family: fuente_2, monospace;
+    font-size: 1.6vw;
+    font-weight: bolder;
+    transition: all 0.4s;
+
+}
+
+.titdireccionn {
+    color: #77736c;
+}
+
+
+.titdireccionn:hover {
+    color: black;
+    opacity: 0.8;
+}
+
+.direccion {
+    position: absolute;
+    bottom: 370px;
+    right: 85px;
+    font-family: fuente_2, monospace;
+    font-size: 1.2vw;
+    font-weight: bolder;
+    transition: all 0.4s;
+
+}
+
+.direccionn {
+    color: white;
+}
+
+.direccion:hover {
+    transform: scale(1.07);
+
+}
+
+.direccionn:hover {
+    color: black;
+    opacity: 0.8;
+}
+
+.carretera{
+    display: none;
+    position: absolute;
+    bottom: 370px;
+    right: 85px;
+    font-family: fuente_2, monospace;
+    font-size: 1.2vw;
+    font-weight: bolder;
+    transition: all 0.4s;
+}
+
+.carreteraa{
+    display: none;
+    color: white;
+}
+
+.carretera:hover {
+    transform: scale(1.07);
+
+}
+
+.carreteraa:hover {
+    color: black;
+    opacity: 0.8;
+}
+
+.barrio{
+    display: none;
+    position: absolute;
+    bottom: 370px;
+    right: 85px;
+    font-family: fuente_2, monospace;
+    font-size: 1.2vw;
+    font-weight: bolder;
+    transition: all 0.4s;
+}
+
+.barrioo{
+    display: none;
+    color: white;
+}
+
+.barrio:hover {
+    transform: scale(1.07);
+
+}
+
+.barrioo:hover {
+    color: black;
+    opacity: 0.8;
+}
+
+.titcorreo {
+    position: absolute;
+    bottom: 290px;
+    right: 85px;
+    font-family: fuente_2, monospace;
+    font-size: 1.6vw;
+    font-weight: bolder;
+    transition: all 0.4s;
+
+}
+
+.titcorreoo {
+    color: #77736c;
+}
+
+
+.titcorreoo:hover {
+    color: black;
+    opacity: 0.8;
+}
+
+.correo {
+    position: absolute;
+    bottom: 250px;
+    right: 85px;
+    font-family: fuente_2, monospace;
+    font-size: 1.2vw;
+    font-weight: bolder;
+    transition: all 0.4s;
+
+}
+
+.correoo {
+    color: white;
+}
+
+.correo:hover {
+    transform: scale(1.1);
+
+}
+
+.correoo:hover {
+    color: black;
+    opacity: 0.8;
+}
+
+
+.tittelf {
+    position: absolute;
+    bottom: 170px;
+    right: 85px;
+    font-family: fuente_2, monospace;
+    font-size: 1.6vw;
+    font-weight: bolder;
+    transition: all 0.4s;
+
+}
+
+.tittelff {
+    color: #77736c;
+}
+
+.tittelf:hover {
+
+}
+
+.tittelff:hover {
+    color: black;
+    opacity: 0.8;
+}
+
+.telf {
+    position: absolute;
+    bottom: 130px;
+    right: 85px;
+    font-family: fuente_2, monospace;
+    font-size: 1.2vw;
+    font-weight: bolder;
+    transition: all 0.4s;
+
+}
+
+.telff {
+    color: white;
+}
+
+.telf:hover {
+    transform: scale(1.1);
+
+}
+
+.telff:hover {
+    color: black;
+    opacity: 0.8;
+}
+
+
+.barramenu {
     display: none;
     position: absolute;
     z-index: 2;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     -webkit-box-sizing: border-box;
@@ -73,72 +302,72 @@ position: absolute;
     box-sizing: border-box;
 }
 
-.main img{
+.main img {
     margin-top: -20px;
     margin-left: -20px;
 
 }
 
-.mainimg{
+.mainimg {
     position: absolute;
     width: 10px;
 }
 
-.eltodo{
-    width: 100%;
-    margin-left: 0;
-    margin-right: 0;
+.eltodo {
+    min-height: calc(100vh - 100px - 300px);
 }
 
-body{
+body {
     max-width: 2000px;
     width: 100%;
     position: relative;
-    padding-right:0;
+    padding-right: 0;
 }
 
-.boton1{
+.boton1 {
     position: fixed;
-    top:550px;
+    top: 550px;
     left: 30px;
     margin: 0 10px;
     transition: 0.5s;
-    opacity: 0.7;
+    opacity: 0.2;
     z-index: 1;
+    transition-delay: 0s !important;
 
 }
 
 
-.boton1 img{
+.boton1 img {
     display: block;
     border-radius: 5px;
 }
 
-.boton1:hover{
-    transform:scale(1.1);
+.boton1:hover {
+    transform: scale(1.1);
     z-index: 2;
+    opacity: 1;
 }
 
-.redes{
+.redes {
     width: 140px;
     height: 100px;
     background-image: url(Imágenes/marble_texture_gray_146385_2560x1600.jpg);
     position: fixed;
-    bottom:360px;
+    bottom: 360px;
     left: -75px;
     border-radius: 0 1rem 1rem 0;
     transition: all 0.2s;
     box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
     padding-right: 3rem;
-    z-index:2;
+    z-index: 2;
 
 }
 
-.redes:hover{
+.redes:hover {
     left: -65px;
 }
 
-.facebook{
+.facebook {
     position: absolute;
     left: 92px;
     top: 15px;
@@ -146,7 +375,7 @@ body{
     transition: all 0.2s;
 }
 
-.whatsapp{
+.whatsapp {
     position: absolute;
     left: 87px;
     top: 55px;
@@ -155,58 +384,60 @@ body{
     margin-right: 5px;
 }
 
-.redes:hover .whatsapp{
+.redes:hover .whatsapp {
     left: 85px;
 }
 
-.redes:hover .facebook{
+.redes:hover .facebook {
     left: 90px;
 }
 
-.facebook:hover{
+.facebook:hover {
     right: -200px;
-    width: 25%;
+    opacity: 0.7;
+    width: 23%;
 }
 
-.whatsapp:hover{
-    width: 30%;
+.whatsapp:hover {
+    width: 28%;
+    opacity: 0.7;
     top: 50px;
     margin-left: -5px;
 
 
 }
 
-header{
+header {
     width: 100%;
 }
 
-.barra500{
+.barra500 {
     width: 100%;
     max-width: 7000px;
     height: 50px;
 }
 
-.barra200{
+.barra200 {
     width: 100%;
     max-width: 2000px;
 }
 
-.iconify10{
-position: absolute;
+.iconify10 {
+    position: absolute;
     z-index: 2;
     left: 230px;
     top: 8px;
 }
 
 
-.iconify20{
+.iconify20 {
     position: absolute;
     z-index: 2;
     left: 680px;
     top: 11px;
 }
 
-.iconify30{
+.iconify30 {
     position: absolute;
     z-index: 2;
     left: 1009px;
@@ -214,22 +445,21 @@ position: absolute;
 }
 
 
-
 /** Menú lateral **/
 
 
-label{
-    color:white;
+label {
+    color: white;
     position: relative;
     top: 35px;
     right: 10px;
     transition: 970ms;
 }
 
-.content-all label{
+.content-all label {
     width: 100%;
     max-width: 1000px;
-    top:14px;
+    top: 14px;
     font-size: 26px;
     color: white;
     cursor: pointer;
@@ -237,57 +467,56 @@ label{
 
 }
 
-.content-all{
+.content-all {
     width: 100%;
     max-width: 1000px;
     background: red;
 
 }
 
-#check{
+#check {
     display: none;
 }
 
-#check:checked ~ .menu2{
+#check:checked ~ .menu2 {
     width: 700px;
     margin-bottom: -220px;
     height: 300px;
 
 }
 
-#check:checked ~ label{
-    top:15px;
+#check:checked ~ label {
+    top: 15px;
 }
 
-#check:checked ~ .main{
-position: relative;
+#check:checked ~ .main {
+    position: relative;
     margin-bottom: 10px;
 }
 
-.barra5{
-    margin-top:-600px;
+.barra5 {
+    margin-top: -600px;
     transition: all 1000ms;
     overflow: hidden;
     max-width: 2000px;
     width: 100%;
 }
 
-.barra12{
+.barra12 {
     display: none;
 }
 
-.barra50{
+.barra50 {
     max-width: 2000px;
     width: 100%;
 }
 
-#check:checked ~ .barra5{
-margin-top: -290px;
+#check:checked ~ .barra5 {
+    margin-top: -290px;
 }
 
 
-
-.menu2{
+.menu2 {
     bottom: 630px;
     position: relative;
     height: 0;
@@ -297,13 +526,13 @@ margin-top: -290px;
 }
 
 
-.menu2 li{
+.menu2 li {
     position: relative;
 
     margin: 25px;
     padding: 16px;
     color: white;
-    transition:all 300ms;
+    transition: all 300ms;
     display: block;
     width: 400px;
     font-family: fuente_3, monospace;
@@ -314,11 +543,10 @@ margin-top: -290px;
     text-align: center;
 
 
-
 }
 
-.menu2 li:hover{
-    background: rgba(0,0,0,0.2);
+.menu2 li:hover {
+    background: rgba(0, 0, 0, 0.2);
     margin-left: 70px;
     margin-bottom: -10px;
     border-bottom: 3px solid yellow;
@@ -326,7 +554,7 @@ margin-top: -290px;
 }
 
 
-.foto7{
+.foto7 {
     position: absolute;
     top: 57px;
     left: 1050px;
@@ -334,15 +562,8 @@ margin-top: -290px;
 }
 
 
-
-
-
-
-
-
-
-li{
-    margin:-3px;
+li {
+    margin: -3px;
 }
 
 /*Navigation Bar*/
@@ -362,30 +583,29 @@ a {
     text-align: center;
 
 
-
-
 }
 
 
-.navbar ul{
+.navbar ul {
     list-style: none;
 
 }
-.menu > li{
+
+.menu > li {
     position: relative;
     display: inline-block;
     margin-bottom: 15px;
     margin-top: 15px;
     left: 10px;
 
-    padding:1px;
+    padding: 1px;
 
     text-align: center;
 
 
-
 }
-.menu > li >a{
+
+.menu > li > a {
 
     padding: 15px 60px;
     font-size: 20px;
@@ -394,77 +614,68 @@ a {
 }
 
 
-.menu li a:hover{
+.menu li a:hover {
     color: yellow;
-    transition: all .3s;
+
 }
-.menu{
-    font-family: fuente_4,monospace;
+
+.menu li a {
+    transition: all 0.1s;
+}
+
+.menu {
+    font-family: fuente_4, monospace;
     letter-spacing: 1px;
     font-weight: bold;
 
 
-
 }
 
-*{
-margin: 0;
-padding: 0;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-body{
-background-image: url("Imágenes/marble_texture_gray_146385_2560x1600.png");
+body {
+    background-image: url("Imágenes/marble_texture_gray_146385_2560x1600.png");
     background-repeat: unset;
     background-attachment: fixed;
 }
 
 
-.contenedor{
+.contenedor {
     width: 100%;
     max-width: 1000px;
     overflow: hidden;
 }
 
 
-
-.main{
-width: 100%;
-bottom: 1000px;
-padding: 20px;
+.main {
+    width: 100%;
+    bottom: 1000px;
+    padding: 20px;
     float: left;
     margin-right: 2%;
-box-sizing: border-box;
+    box-sizing: border-box;
     color: white;
 }
 
 
-.main img{
-width: 100%;
-}
-
-footer{
-clear: both;
-float: left;
-margin-top: 20px;
-box-sizing: border-box;
+.main img {
     width: 100%;
-padding: 20px;
-    color: #FFF;
-    background: #000;
-    text-align: center;
-    font-weight: bold;
 }
 
-.navbar{
-    margin-top:35px;
+
+.navbar {
+    margin-top: 35px;
 
 
 }
 
-.header1{
+.header1 {
 
     height: 50px;
-    color:black;
+    color: black;
     margin: 0;
     max-width: 2000px;
     width: 100%;
@@ -476,80 +687,80 @@ padding: 20px;
     margin-left: 263px;
     margin-top: 13px;
     color: black;
-    font-family: fuente_2,monospace;
+    font-family: fuente_2, monospace;
     font-weight: bold;
 }
 
 
-.header2{
+.header2 {
     border-bottom: 6px solid #5e6066;
-    border-top:4px solid #5e6066;
+    border-top: 4px solid #5e6066;
     display: inline-block;
     height: 130px;
-    color:white;
+    color: white;
     margin: 0;
     width: 100%;
 }
 
-.barra2{
+.barra2 {
     position: absolute;
 }
 
-.forma1{
-display: none;
+.forma1 {
+    display: none;
     position: absolute;
     left: 265px;
-    top:60px;
+    top: 60px;
 
 }
 
-.texto2{
-display: none;
-    position: absolute;
-    z-index: 2;
-margin-left: 710px;
-margin-top: 13px;
-color: black;
-    font-family: fuente_2,monospace;
-    font-weight: bold;
-}
-
-.texto20{
+.texto2 {
+    display: none;
     position: absolute;
     z-index: 2;
     margin-left: 710px;
     margin-top: 13px;
     color: black;
-    font-family: fuente_2,monospace;
+    font-family: fuente_2, monospace;
     font-weight: bold;
 }
 
-.foto1{
-position: absolute;
-top:62px;
+.texto20 {
+    position: absolute;
+    z-index: 2;
+    margin-left: 710px;
+    margin-top: 13px;
+    color: black;
+    font-family: fuente_2, monospace;
+    font-weight: bold;
+}
+
+.foto1 {
+    position: absolute;
+    top: 62px;
     left: 60px;
 }
 
-.forma2{
+.forma2 {
     position: absolute;
     margin-top: 0;
     margin-left: 255px;
 }
 
-.forma3{
+.forma3 {
     position: absolute;
     margin-top: 0;
     margin-left: 1215px;
 }
 
-.foto5{
+.foto5 {
     position: absolute;
-    top:85px;
+    top: 85px;
     margin-left: 210px;
 }
 
-.iconify{
-z-index: 2;
+.iconify {
+    z-index: 2;
     width: 70px;
     height: 25px;
     margin-top: 10px;
@@ -557,49 +768,50 @@ z-index: 2;
     position: absolute;
 }
 
-.iconify1{
+.iconify1 {
     position: relative;
     margin-left: 200px;
 
 }
 
-.iconify2{
+.iconify2 {
     position: relative;
-    margin-left:648px;
+    margin-left: 648px;
 
 }
 
-.iconify3{
+.iconify3 {
     position: relative;
     margin-left: 987px;
 
 }
-.foto2{
+
+.foto2 {
     position: absolute;
-    left:10px;
-    top:20px;
+    left: 10px;
+    top: 20px;
 }
 
-.foto3{
+.foto3 {
     position: absolute;
     left: 320px;
-    top:95px;
+    top: 95px;
 }
 
-.foto4{
+.foto4 {
     position: absolute;
     margin-left: 1300px;
-    margin-top:35px;
+    margin-top: 35px;
     transition: 0.5s;
 }
 
-.foto4:hover{
-    transform:scale(1.1);
+.foto4:hover {
+    transform: scale(1.1);
     z-index: 2;
 }
 
 
-.header0{
+.header0 {
     display: none;
     background: white;
     max-width: 1400px;
@@ -607,48 +819,61 @@ z-index: 2;
     height: 200px;
 }
 
-.barra3{
+.barra3 {
     position: absolute;
 }
 
-.barra40{
-    position: absolute;
-    display: none;
-}
-
-.barra42{
+.barra40 {
     position: absolute;
     display: none;
 }
 
-.barra400{
+.barra42 {
+    position: absolute;
+    display: none;
+}
+
+.barra400 {
     position: absolute;
     display: none;
 
 }
 
-.texto3{
+.barra4001 {
+    position: absolute;
+    display: none;
+
+}
+
+.barra4003 {
+    position: absolute;
+    display: none;
+
+}
+
+
+.texto3 {
     z-index: 2;
     position: absolute;
     margin-left: 1050px;
     margin-top: 13px;
     color: black;
-    font-family: fuente_2,monospace;
+    font-family: fuente_2, monospace;
     font-weight: bold;
 }
 
-.barra1{
+.barra1 {
     position: absolute;
     z-index: 1;
 }
 
-.iconify4{
+.iconify4 {
     position: absolute;
     color: white;
 }
 
 
-.background-1{
+.background-1 {
 
     background-size: cover;
     bottom: 95px;
@@ -664,8 +889,18 @@ z-index: 2;
 }
 
 @font-face {
+    font-family: fuente_10;
+    src: url(Fuentes/roboto/Roboto-Bold.ttf);
+}
+
+@font-face {
     font-family: fuente_2;
     src: url(Fuentes/gravity/Gravity-Light.otf);
+}
+
+@font-face {
+    font-family: fuente_20;
+    src: url(Fuentes/gravity/Gravity-Bold.otf);
 }
 
 @font-face {
@@ -684,13 +919,10 @@ z-index: 2;
 }
 
 
-
-
-
-.container{
-    width: 90%;
+.container {
+    width: 88%;
     position: relative;
-    top: 460px;
+    top: 860px;
     max-width: 1600px;
     justify-content: center;
     align-items: center;
@@ -702,7 +934,7 @@ z-index: 2;
 }
 
 
-.item{
+.item {
     cursor: pointer;
     display: flex;
     justify-content: center;
@@ -719,14 +951,14 @@ z-index: 2;
     width: 100%;
     height: 100%;
     position: absolute;
-    top:0;
+    top: 0;
     left: 0;
     transform: scale(0);
     transition: all 300ms;
     opacity: 0;
 }
 
-.item:hover:after{
+.item:hover:after {
     opacity: 1;
     transform: scale(1);
 }
@@ -736,70 +968,101 @@ z-index: 2;
 }
 
 
-
-
-.item-img{
+.item-img {
     max-width: 100%;
     display: block;
 }
 
-.bomag{
+.bomag {
     max-width: 100%;
     display: block;
 }
 
-.caterpillar{
+.caterpillar {
     max-width: 60%;
     display: block;
 }
 
-.ingersol{
+.genie {
+    max-width: 100%;
+    display: block;
+}
+
+.ingersol {
     max-width: 120%;
     display: block;
 }
 
-.jcb{
+.jcb {
     max-width: 75%;
     display: block;
 }
 
-.john{
+.john {
     max-width: 85%;
     display: block;
 }
 
-.komatsu{
-    max-width: 140%;
-    display: block;
-}
-
-.linkb{
-    max-width: 100%;
-    display: block;
-}
-
-.newh{
-    max-width: 50%;
-    display: block;
-}
-
-.terex{
-    max-width: 100%;
-    display: block;
-}
-
-.volvo{
+.komatsu {
     max-width: 110%;
     display: block;
 }
 
-.zoomlion{
+.linkb {
+    max-width: 100%;
+    display: block;
+}
+
+.newh {
+    max-width: 60%;
+    display: block;
+}
+
+.nissan {
+    max-width: 100%;
+    display: block;
+}
+
+
+.scania {
+    max-width: 100%;
+    display: block;
+}
+
+.shantui {
+    max-width: 125%;
+    display: block;
+}
+
+.terex {
+    max-width: 100%;
+    display: block;
+}
+
+.volvo {
+    max-width: 110%;
+    display: block;
+}
+
+.zoomlion {
     max-width: 110%;
     display: block;
 
 }
 
-.categorias{
+.categorias {
+    position: relative;
+    top: 975px;
+    text-align: center;
+    font-size: 55px;
+    font-weight: lighter;
+    color: #FFFFFF;
+    font-family: fuente_5, monospace;
+    z-index: 2;
+}
+
+.marcas2 {
+    display: none;
     position: relative;
     top: 630px;
     text-align: center;
@@ -810,25 +1073,26 @@ z-index: 2;
     z-index: 2;
 }
 
-.container20{
+
+.container20 {
     position: relative;
-    width: 90%;
-    max-width: 1000px;
+    width: 85%;
+    max-width: 1500px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 3em;
     margin-bottom: 3em;
-    top:670px;
+    top: 1000px;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 25px;
-    
+
 }
 
 
-.item20{
+.item20 {
     cursor: pointer;
-    box-shadow: 0 0 5px 0 rgba(0,0,0,.095);
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, .095);
     overflow: hidden;
     transition: all 300ms;
     position: relative;
@@ -841,14 +1105,14 @@ z-index: 2;
     width: 100%;
     height: 100%;
     position: absolute;
-    top:0;
+    top: 0;
     left: 0;
     transform: scale(0);
     transition: all 300ms;
     opacity: 0;
 }
 
-.item20:hover:after{
+.item20:hover:after {
     opacity: 1;
     transform: scale(1);
 }
@@ -857,165 +1121,220 @@ z-index: 2;
     transform: scale(1.05);
 }
 
-.item2-img{
+.item2-img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     transition: .5s;
 }
 
-.textito{
+.textito {
     position: absolute;
     width: 100%;
     height: 100%;
     transition: .5s;
     bottom: -75%;
     padding: 10px 20px;
-    font-family: fuente_5,monospace;
+    font-family: fuente_5, monospace;
     font-weight: lighter;
+    text-shadow: 2px 2px black;
 
 }
 
-.textito p{
+.textito p {
     color: white;
-    font-size: 1.2vw;
+    font-size: 1.8vw;
     width: 100%;
     font-weight: bolder;
 
 }
 
 
-.item20:hover .fotito{
+.item20:hover .fotito {
     display: block;
 
 }
 
-.item20:hover .textito{
-    bottom: -60%;
+.item20:hover .textito {
+    bottom: -68%;
     background: black;
     opacity: 0.8;
 }
 
-.fotito{
+.fotito {
     display: none;
     position: absolute;
     left: 10px;
     top: 45px;
-    width: 43%;
+    width: 35%;
 
 }
 
 
+@media screen and (max-width: 1521px) {
+    .forma1 {
+        display: none;
+    }
 
-@media screen and (max-width: 1521px){
-.forma1{
-    display: none;
-}
-
-    .foto3{
+    .foto3 {
         display: none;
     }
 
 
-    .foto5{
+    .foto5 {
         display: none;
     }
 
-    .forma3{
+    .forma3 {
         right: 235px;
     }
 
-    .foto4{
+    .foto4 {
         right: 15px;
     }
 }
 
+@media screen and (max-width: 1420px) {
+    .contacto {
+        right: 80px;
+        top: 140px;
+    }
 
-@media screen and (max-width: 1400px){
+    .titdireccion {
+        top: 270px;
+    }
 
-    .texto1{
-    position: absolute;
+    .direccion {
+        top: 310px;
+    }
+
+    .titcorreo {
+        top: 370px;
+    }
+
+    .correo {
+        top: 410px;
+    }
+
+    .tittelf {
+        top: 470px;
+    }
+
+    .telf {
+        top: 510px;
+    }
+
+}
+
+@media screen and (max-width: 1400px) {
+
+    .texto1 {
+        position: absolute;
         left: -105px;
 
     }
 
-    .iconify10{
+    .iconify10 {
         left: 125px;
     }
 
-    .iconify20{
+    .iconify20 {
         left: 640px;
     }
 
-    .texto20{
+    .texto20 {
         position: absolute;
         left: -40px;
     }
 
-    .iconify2{
+    .iconify2 {
         right: 40px;
     }
 }
 
-@media screen and (max-width: 1320px){
-    .texto1{
+@media screen and (max-width: 1370px) {
+    .marcas {
+        top: 720px;
+    }
+
+    .container {
+        top: 780px;
+    }
+
+    .categorias {
+        top: 860px;
+    }
+
+    .container20 {
+        top: 880px;
+    }
+
+    footer {
+        bottom: -1800px;
+    }
+
+}
+
+@media screen and (max-width: 1320px) {
+    .texto1 {
         left: -105px;
 
     }
 
 
-    .texto20{
+    .texto20 {
         left: -80px;
     }
 
-    .iconify20{
+    .iconify20 {
         left: 600px;
     }
 
-    .texto3{
+    .texto3 {
         left: -50px;
     }
 
-    .iconify30{
+    .iconify30 {
         left: 960px;
     }
 
 }
 
 
-@media screen and (max-width: 1265px){
-    .texto1{
+@media screen and (max-width: 1265px) {
+    .texto1 {
         left: -130px;
     }
 
-.iconify10{
-    left: 100px;
-}
+    .iconify10 {
+        left: 100px;
+    }
 
-    .texto20{
+    .texto20 {
         left: -105px;
     }
 
-    .iconify20{
+    .iconify20 {
         left: 575px;
     }
 
 
-    .texto3{
+    .texto3 {
         left: -75px;
     }
 
-    .iconify30{
+    .iconify30 {
         left: 935px;
     }
 
 }
 
 
-@media screen and (min-width: 1240px){
-.contenedor{
-    max-width: 2000px;
-}
+@media screen and (min-width: 1240px) {
+    .contenedor {
+        max-width: 2000px;
+    }
+
     .navbar {
         text-align: center;
         margin-right: auto;
@@ -1026,51 +1345,57 @@ z-index: 2;
 }
 
 
-@media screen and (max-width: 1240px){
+@media screen and (max-width: 1240px) {
 
-.barra50{
-    height: 730px;
-}
+    .barra50 {
+        height: 730px;
+    }
 
-    .header0{
+    .redes {
+        display: none;
+    }
+
+    .header0 {
         height: 130px;
     }
 
-    .header1{
-    height: 50px;
-   }
+    .header1 {
+        height: 50px;
+    }
 
-    .forma2{
+    .forma2 {
         display: none;
     }
 
-    .forma3{
+    .forma3 {
         display: none;
     }
 
-    .header2{
+    .header2 {
         display: none;
         border-top: 8px solid #5e6066;
     }
-    .header0{
+
+    .header0 {
         display: inline-block;
 
     }
 
-    .main img{
+    .main img {
         position: absolute;
         margin-top: -283px;
 
     }
 
-    .header0{
+    .header0 {
         margin-bottom: -50px;
     }
-    .menu2 li{
+
+    .menu2 li {
         top: 245px;
     }
 
-    .barramenu{
+    .barramenu {
         display: inline-block;
         top: 590px;
         left: 45px;
@@ -1078,15 +1403,121 @@ z-index: 2;
         z-index: 2;
     }
 
-    #check:checked ~ label{
-        top:-290px;
+    #check:checked ~ label {
+        top: -290px;
     }
 
+    .marcas {
+        top: 420px;
+    }
+
+    .container {
+        top: 480px;
+    }
+
+    .categorias {
+        top: 550px;
+    }
+
+    .container20 {
+        top: 570px;
+    }
+
+
+    .contacto {
+        top: 120px;
+    }
+
+    .titdireccion {
+        top: 240px;
+    }
+
+    .direccion {
+        top: 280px;
+    }
+
+    .titcorreo {
+        top: 320px;
+    }
+
+    .correo {
+        top: 360px;
+    }
+
+    .tittelf {
+        top: 400px;
+    }
+
+    .telf {
+        top: 440px;
+    }
+
+    footer {
+        height: 625px;
+        bottom: -1350px;
+    }
+
+    .item20:hover .fotito {
+        display: none;
+    }
 }
 
-@media screen and (max-width: 1240px) and (min-width: 1170px){
+@media screen and (max-width: 1180px) {
+    .contacto {
+        top: 115px;
+    }
 
-    .header2{
+    .titdireccion {
+        top: 230px;
+    }
+
+    .direccion {
+        top: 270px;
+    }
+
+    .titcorreo {
+        top: 310px;
+    }
+
+    .correo {
+        top: 350px;
+    }
+
+    .tittelf {
+        top: 390px;
+    }
+
+    .telf {
+        top: 430px;
+    }
+}
+
+@media screen and (max-width: 1140px) {
+    .marcas {
+        top: 350px;
+    }
+
+    .container {
+        top: 410px;
+    }
+
+    .categorias {
+        top: 480px;
+    }
+
+    .container20 {
+        top: 500px;
+    }
+
+    footer {
+        bottom: -1250px;
+    }
+}
+
+
+@media screen and (max-width: 1240px) and (min-width: 1170px) {
+
+    .header2 {
         height: 262px;
     }
 
@@ -1094,63 +1525,66 @@ z-index: 2;
         width: 100%;
     }
 
-    .menu > li{
+    .menu > li {
         position: relative;
         display: flex;
-        width:100%;
-        bottom:15px;
+        width: 100%;
+        bottom: 15px;
         margin-bottom: -7px;
         margin-left: -5px;
 
     }
+
     a {
         width: 100%;
     }
-    .menu > li >a{
-       width: 100%;
+
+    .menu > li > a {
+        width: 100%;
         margin-left: 200px;
         margin-right: auto;
 
     }
-    .foto1{
+
+    .foto1 {
         display: none;
     }
 
 }
 
 
-@media screen and (max-width: 1205px){
-    .texto1{
+@media screen and (max-width: 1205px) {
+    .texto1 {
         left: -140px;
 
     }
 
-.iconify10{
-    left: 90px;
-}
+    .iconify10 {
+        left: 90px;
+    }
 
-    .texto20{
+    .texto20 {
         left: -130px;
     }
 
-.iconify20{
-    left: 550px;
-}
+    .iconify20 {
+        left: 550px;
+    }
 
-    .texto3{
+    .texto3 {
         left: -120px;
     }
 
-    .iconify30{
+    .iconify30 {
         left: 890px;
     }
 
 }
 
 
-@media screen and (max-width: 1170px) and  (min-width: 1096px){
+@media screen and (max-width: 1170px) and  (min-width: 1096px) {
 
-    .header2{
+    .header2 {
         height: 262px;
     }
 
@@ -1162,55 +1596,56 @@ z-index: 2;
         position: relative;
         display: flex;
         width: 100%;
-        margin-left:60px;
-        bottom:15px;
+        margin-left: 60px;
+        bottom: 15px;
         margin-bottom: -7px;
     }
+
     a {
         width: 100%;
     }
-    .menu > li >a{
+
+    .menu > li > a {
         width: 100%;
     }
-    .foto1{
+
+    .foto1 {
         display: none;
     }
 
 }
 
 
-@media screen and (max-width: 1145px){
+@media screen and (max-width: 1145px) {
     .texto1 {
         left: -140px;
     }
 
-.iconify10{
-    left: 90px;
-}
+    .iconify10 {
+        left: 90px;
+    }
 
-    .texto20{
+    .texto20 {
         left: -155px;
     }
 
-.iconify20{
-    left: 525px;
-}
+    .iconify20 {
+        left: 525px;
+    }
 
-    .texto3{
+    .texto3 {
         left: -180px;
     }
 
-    .iconify30{
+    .iconify30 {
         left: 830px;
     }
 
 }
 
 
-
-
 @media screen and (max-width: 1096px) {
-    .header2{
+    .header2 {
         height: 262px;
     }
 
@@ -1222,18 +1657,21 @@ z-index: 2;
         position: relative;
         display: flex;
         width: 100%;
-        margin-left:auto;
-        bottom:15px;
+        margin-left: auto;
+        bottom: 15px;
         margin-bottom: -7px;
     }
+
     a {
         width: 100%;
     }
-    .menu > li >a{
+
+    .menu > li > a {
         width: 100%;
 
     }
-    .foto1{
+
+    .foto1 {
         display: none;
     }
 
@@ -1241,102 +1679,160 @@ z-index: 2;
         left: -170px;
     }
 
-    .iconify10{
+    .iconify10 {
         left: 60px;
     }
 
-    .texto20{
+    .texto20 {
         left: -185px;
     }
 
-.iconify20{
-    left: 495px;
-}
+    .iconify20 {
+        left: 495px;
+    }
 
-    .texto3{
+    .texto3 {
         left: -205px;
     }
 
-.iconify30{
-    left: 805px;
-}
+    .iconify30 {
+        left: 805px;
+    }
 
 }
 
-@media screen and (max-width: 1060px){
+@media screen and (max-width: 1080px) {
+    .contacto {
+        top: 80px;
+    }
+
+    .titdireccion {
+        top: 180px;
+    }
+
+    .direccion {
+        top: 220px;
+    }
+
+    .titcorreo {
+        top: 260px;
+    }
+
+    .correo {
+        top: 300px;
+    }
+
+    .tittelf {
+        top: 340px;
+    }
+
+    .telf {
+        top: 380px;
+    }
+
+    footer {
+        bottom: -1150px;
+        height: 540px;
+    }
+}
+
+@media screen and (max-width: 1060px) {
     .texto1 {
         left: -175px;
     }
 
-    .iconify10{
+    .iconify10 {
         left: 55px;
     }
 
-    .texto20{
+    .texto20 {
         left: -210px;
     }
 
-    .iconify20{
+    .iconify20 {
         left: 470px;
     }
 
-    .texto3{
+    .texto3 {
         left: -250px;
     }
 
-    .iconify30{
+    .iconify30 {
         left: 760px;
     }
 
 }
 
-@media screen and (max-width: 995px){
+@media screen and (max-width: 1030px) {
+    .marcas {
+        top: 260px;
+    }
+
+    .container {
+        top: 320px;
+    }
+
+    .categorias {
+        top: 390px;
+    }
+
+    .container20 {
+        top: 410px;
+    }
+
+    footer {
+        bottom: -1100px;
+    }
+}
+
+
+@media screen and (max-width: 995px) {
 
     .texto1 {
         left: -185px;
     }
 
-    .iconify10{
+    .iconify10 {
         left: 45px;
     }
 
-    .texto20{
+    .texto20 {
         left: -230px;
     }
 
-    .iconify20{
+    .iconify20 {
         left: 450px;
     }
 
-    .texto3{
+    .texto3 {
         left: -285px;
     }
 
-    .iconify30{
+    .iconify30 {
         left: 725px;
     }
 
 }
 
 
-@media screen and (max-width: 965px){
+@media screen and (max-width: 965px) {
 
-    .header1{
+    .header1 {
         height: 100px;
     }
 
-    .barra1{
+    .barra1 {
         display: none;
     }
 
-    .barra40{
+    .barra40 {
         display: inline-block;
         z-index: 1;
         max-width: 1500px;
         width: 100%;
     }
 
-    .barra41{
+    .barra41 {
         max-width: 1500px;
         width: 100%;
     }
@@ -1346,82 +1842,82 @@ z-index: 2;
         z-index: 2;
     }
 
-    .iconify1{
+    .iconify1 {
         right: 210px;
         z-index: 2;
     }
 
-    .texto2{
+    .texto2 {
         display: inline-block;
         left: -255px;
         z-index: 2;
     }
 
-    .texto20{
+    .texto20 {
         display: none;
     }
 
-    .iconify2{
+    .iconify2 {
         right: 255px;
         z-index: 2;
     }
 
-    .texto3{
+    .texto3 {
         left: -300px;
         z-index: 2;
     }
 
-    .iconify3{
+    .iconify3 {
         right: 300px;
         z-index: 2;
     }
 
-    .barra5{
+    .barra5 {
         margin-top: -600px;
     }
 
 
 }
 
-@media screen and (max-width: 965px){
-    .header1{
+@media screen and (max-width: 965px) {
+    .header1 {
         margin-top: -15px;
     }
 
 
-    .texto1{
+    .texto1 {
         font-size: 20px;
         position: absolute;
         left: 75px;
         top: 50px;
     }
 
-    .iconify10{
+    .iconify10 {
         left: 305px;
         top: 58px;
     }
 
-    .iconify11{
+    .iconify11 {
         width: 30px;
     }
 
-    .texto2{
+    .texto2 {
         font-size: 20px;
         position: absolute;
         top: 12px;
         left: -450px;
     }
 
-    .iconify20{
+    .iconify20 {
         left: 245px;
         top: 23px;
     }
 
-    .iconify21{
+    .iconify21 {
         width: 30px;
     }
 
-    .texto3{
+    .texto3 {
         font-size: 20px;
         position: relative;
         z-index: 2;
@@ -1429,165 +1925,198 @@ z-index: 2;
         left: -465px;
     }
 
-    .iconify30{
+    .iconify30 {
         left: 535px;
         top: 18px;
     }
 
-    .iconify31{
+    .iconify31 {
         width: 42px;
     }
 
-    .foto7{
-        top:106px;
+    .foto7 {
+        top: 106px;
         z-index: 2;
         margin-left: -20px;
     }
 }
 
 
-
-
-
-
-
-
-
-    @media screen and (max-width: 400px){
-        .contenedor {
+@media screen and (max-width: 400px) {
+    .contenedor {
         max-width: 100%;
-        }
     }
-
+}
 
 
 /*Menú2*/
 
-@media screen and (max-width: 1190px){
+@media screen and (max-width: 1190px) {
     .foto7 {
         left: 1010px;
     }
-    .menu2{
+
+    .menu2 {
         left: 255px;
     }
 
 }
-@media screen and (max-width: 1145px){
+
+@media screen and (max-width: 1145px) {
     .foto7 {
         left: 965px;
     }
-    .menu2{
+
+    .menu2 {
         left: 240px;
     }
 }
 
-@media screen and (max-width: 1100px){
+@media screen and (max-width: 1100px) {
     .foto7 {
         left: 920px;
     }
-    .menu2{
+
+    .menu2 {
         left: 220px;
     }
 }
 
-@media screen and (max-width: 1055px){
+@media screen and (max-width: 1055px) {
     .foto7 {
         left: 870px;
     }
-    .menu2{
+
+    .menu2 {
         left: 200px;
     }
 }
 
-@media screen and (max-width: 1010px){
+@media screen and (max-width: 1010px) {
     .foto7 {
         left: 830px;
     }
-    .menu2{
+
+    .menu2 {
         left: 170px;
     }
 }
 
-@media screen and (max-width: 950px){
+@media screen and (max-width: 950px) {
     .foto7 {
         left: 795px;
-        top:108px;
+        top: 108px;
     }
-    .menu2{
+
+    .menu2 {
         left: 150px;
     }
 
-    .barra12{
+    .barra12 {
         position: relative;
         display: inline-block;
     }
 
-    .barra5{
+    .barra5 {
         display: none;
     }
 
-    .barra12{
-        margin-top:-570px;
+    .barra12 {
+        margin-top: -570px;
         transition: all 1000ms;
         overflow: hidden;
         max-width: 2000px;
         width: 100%;
     }
 
-    #check:checked ~ .barra12{
+    #check:checked ~ .barra12 {
         margin-top: -290px;
     }
 
-    label{
+    label {
         top: -680px;
     }
 
-    #check:checked ~ label{
+    #check:checked ~ label {
         top: -970px;
+    }
+
+    .contacto {
+        top: 70px;
+    }
+
+    .titdireccion {
+        top: 150px;
+    }
+
+    .direccion {
+        top: 180px;
+    }
+
+    .titcorreo {
+        top: 220px;
+    }
+
+    .correo {
+        top: 250px;
+    }
+
+    .tittelf {
+        top: 290px;
+    }
+
+    .telf {
+        top: 320px;
+    }
+
+    footer {
+        bottom: -1000px;
+        height: 480px;
     }
 }
 
-@media screen and (max-width: 905px){
+@media screen and (max-width: 905px) {
     .foto7 {
         left: 750px;
     }
-    .menu2{
+
+    .menu2 {
         left: 125px;
     }
 
-    .texto1{
+    .texto1 {
         font-size: 20px;
         position: absolute;
         left: 15px;
         top: 50px;
     }
 
-    .iconify10{
+    .iconify10 {
         left: 245px;
         top: 58px;
     }
 
-    .iconify11{
+    .iconify11 {
         width: 30px;
     }
 
-    .texto2{
+    .texto2 {
         font-size: 20px;
         position: absolute;
         top: 12px;
         left: -515px;
     }
 
-    .iconify20{
+    .iconify20 {
         left: 180px;
         top: 23px;
     }
 
-    .iconify21{
+    .iconify21 {
         width: 30px;
     }
 
-    .texto3{
+    .texto3 {
         font-size: 20px;
         position: relative;
         z-index: 2;
@@ -1595,123 +2124,247 @@ z-index: 2;
         left: -530px;
     }
 
-    .iconify30{
+    .iconify30 {
         left: 470px;
         top: 18px;
     }
 
-    .iconify31{
+    .iconify31 {
         width: 42px;
     }
 }
 
-@media screen and (max-width: 860px){
+@media screen and (max-width: 860px) {
     .foto7 {
         left: 705px;
     }
-    .menu2{
+
+    .menu2 {
         left: 80px;
     }
 
-    .texto1{
-        left:-45px;
+    .texto1 {
+        left: -45px;
         top: 50px;
     }
 
-    .iconify10{
+    .iconify10 {
         left: 185px;
     }
 
-    .texto2{
+    .texto2 {
         position: absolute;
         top: 12px;
         left: -575px;
     }
 
-    .iconify20{
+    .iconify20 {
         left: 120px;
     }
 
-    .texto3{
+    .texto3 {
         top: 25px;
         left: -590px;
     }
 
-    .iconify30{
+    .iconify30 {
         left: 410px;
     }
 
+    .contacto {
+        top: 70px;
+    }
+
+    .titdireccion {
+        top: 150px;
+    }
+
+    .direccion {
+        top: 180px;
+    }
+
+    .titcorreo {
+        top: 220px;
+    }
+
+    .correo {
+        top: 250px;
+    }
+
+    .tittelf {
+        top: 290px;
+    }
+
+    .telf {
+        top: 320px;
+    }
+
+    footer {
+        bottom: -940px;
+        height: 430px;
+    }
+
 }
 
-@media screen and (max-width: 815px){
+@media screen and (max-width: 850px) {
+    .marcas {
+        top: 160px;
+        font-size: 40px;
+    }
+
+    .container {
+        top: 220px;
+    }
+
+    .categorias {
+        top: 290px;
+        font-size: 40px;
+    }
+
+    .container20 {
+        top: 310px;
+    }
+
+    footer {
+        bottom: -830px;
+    }
+
+    .contacto {
+        top: 60px;
+    }
+
+    .titdireccion {
+        top: 130px;
+    }
+
+    .direccion {
+        top: 160px;
+    }
+
+    .titcorreo {
+        top: 200px;
+    }
+
+    .correo {
+        top: 230px;
+    }
+
+    .tittelf {
+        top: 270px;
+    }
+
+    .telf {
+        top: 300px;
+    }
+}
+
+
+@media screen and (max-width: 815px) {
     .foto7 {
         left: 650px;
     }
-    .menu2{
+
+    .menu2 {
         left: 65px;
     }
 
-    .menu2 li{
-    left: 135px;
+    .menu2 li {
+        left: 135px;
     }
 
-    .texto1{
+    footer {
+        height: 400px;
+        bottom: -810px;
+    }
 
+    .contacto {
+        top: 60px;
+        font-size: 17px;
+    }
+
+    .titdireccion {
+        top: 120px;
+        font-size: 12px;
+    }
+
+    .direccion {
+        top: 150px;
+        font-size: 10px;
+    }
+
+    .titcorreo {
+        top: 180px;
+        font-size: 12px;
+    }
+
+    .correo {
+        top: 210px;
+        font-size: 10px;
+    }
+
+    .tittelf {
+        top: 240px;
+        font-size: 12px;
+    }
+
+    .telf {
+        top: 270px;
+        font-size: 10px;
     }
 }
 
-@media screen and (max-width: 770px){
+@media screen and (max-width: 770px) {
 
 
-    .barra40{
+    .barra40 {
         display: none;
     }
 
-    .barra42{
+    .barra42 {
         display: inline-block;
         z-index: 1;
         max-width: 1500px;
         width: 100%;
     }
 
-    .barra43{
+    .barra43 {
         max-width: 1500px;
         width: 100%;
     }
 
-    .texto1{
+    .texto1 {
         font-size: 15px;
         position: absolute;
         left: -10px;
         top: 55px;
     }
 
-    .iconify10{
+    .iconify10 {
         left: 225px;
         top: 65px;
     }
 
-    .iconify11{
+    .iconify11 {
         width: 25px;
     }
 
-    .texto2{
+    .texto2 {
         font-size: 15px;
         position: absolute;
-        top:19px;
+        top: 19px;
         left: -525px;
     }
 
-    .iconify20{
+    .iconify20 {
         left: 170px;
         top: 29px;
     }
 
-    .iconify21{
+    .iconify21 {
         width: 25px;
     }
 
-    .texto3{
+    .texto3 {
         font-size: 15px;
         position: absolute;
         z-index: 2;
@@ -1719,388 +2372,695 @@ z-index: 2;
         left: -615px;
     }
 
-    .iconify30{
+    .iconify30 {
         left: 395px;
         top: 23px;
     }
 
-    .iconify31{
+    .iconify31 {
         width: 36px;
     }
 
-    .foto7{
+    .foto7 {
         left: 605px;
     }
 
-    .menu2{
+    .menu2 {
         margin-left: -100px;
     }
-    .menu2 li{
+
+    .menu2 li {
         left: 205px;
     }
+
+    footer {
+        height: 350px;
+        bottom: -770px;
+    }
+
+    .contacto {
+        top: 50px;
+        font-size: 18px;
+        right:65px;
+    }
+
+    .titdireccion {
+        top: 110px;
+        right: 70px;
+        font-size: 12px;
+    }
+
+    .direccion {
+        top: 135px;
+        right: 70px;
+        font-size: 10px;
+    }
+
+    .titcorreo {
+        top: 160px;
+        right: 70px;
+        font-size: 12px;
+    }
+
+    .correo {
+        top: 185px;
+        right: 70px;
+        font-size: 10px;
+    }
+
+    .tittelf {
+        top: 210px;
+        right: 70px;
+        font-size: 12px;
+    }
+
+    .telf {
+        top: 235px;
+        right: 70px;
+        font-size: 10px;
+    }
+
+    .marcas {
+        top: 100px;
+    }
+
+    .container {
+        top: 160px;
+    }
+
+    .categorias {
+        top: 230px;
+    }
+
+    .container20 {
+        top: 250px;
+    }
+
+    footer {
+        bottom: -750px;
+    }
+
+    .contacto:hover{
+        border-bottom: 0 solid white;
+    }
+
 }
 
 
-@media screen and (max-width: 745px){
+@media screen and (max-width: 745px) {
 
-    .texto1{
+    .texto1 {
         left: -35px;
 
     }
 
-    .iconify10{
+    .iconify10 {
         left: 195px;
 
     }
-    .texto2{
+
+    .texto2 {
 
         left: -555px;
     }
 
-    .iconify20{
+    .iconify20 {
         left: 140px;
 
     }
 
-    .texto3{
+    .texto3 {
 
         left: -640px;
     }
 
-    .iconify30{
+    .iconify30 {
         left: 370px;
-
     }
 
-    .foto7{
+    .foto7 {
         left: 590px;
     }
 
-    .menu2 li{
-        left:190px;
+    .menu2 li {
+        left: 190px;
+    }
+
+    .contacto {
+        top: 50px;
+        font-size: 15px;
+        right:65px;
+    }
+
+    .titdireccion {
+        top: 110px;
+        right: 70px;
+        font-size: 11px;
+    }
+
+    .direccion {
+        top: 135px;
+        right: 70px;
+        font-size: 9px;
+    }
+
+    .titcorreo {
+        top: 160px;
+        right: 70px;
+        font-size: 11px;
+    }
+
+    .correo {
+        top: 185px;
+        right: 70px;
+        font-size:9px;
+    }
+
+    .tittelf {
+        top: 210px;
+        right: 70px;
+        font-size: 11px;
+    }
+
+    .telf {
+        top: 235px;
+        right: 70px;
+        font-size:9px;
     }
 
 }
 
-@media screen and (max-width: 695px){
+@media screen and (max-width: 695px) {
 
-    .texto1{
+    .texto1 {
         left: -65px;
 
     }
 
-    .iconify10{
+    .iconify10 {
         left: 165px;
 
     }
-    .texto2{
+
+    .texto2 {
 
         left: -585px;
     }
 
-    .iconify20{
+    .iconify20 {
         left: 110px;
 
     }
 
-    .texto3{
+    .texto3 {
 
         left: -630px;
     }
 
-    .iconify30{
+    .iconify30 {
         left: 380px;
     }
 
-    .foto7{
+    .foto7 {
         left: 540px;
     }
 
-    .menu2 li{
+    .menu2 li {
         left: 160px;
     }
 
 }
 
-@media screen and (max-width: 670px){
-    .menu2{
+@media screen and (max-width: 670px) {
+    .menu2 {
         margin-left: -250px;
     }
-    .menu2 li{
+
+    .menu2 li {
         left: 300px;
+    }
+
+    footer {
+        height: 320px;
+        bottom: -740px;
+    }
+
+    .contacto {
+        top: 55px;
+        font-size: 14px;
+        right:55px;
+    }
+
+    .titdireccion {
+        top: 100px;
+        right: 60px;
+        font-size: 10px;
+    }
+
+    .direccion {
+        top: 125px;
+        right: 60px;
+        font-size: 8px;
+    }
+
+    .titcorreo {
+        top: 150px;
+        right: 60px;
+        font-size: 10px;
+    }
+
+    .correo {
+        top: 175px;
+        right: 60px;
+        font-size:8px;
+    }
+
+    .tittelf {
+        top: 200px;
+        right: 60px;
+        font-size: 10px;
+    }
+
+    .telf {
+        top: 225px;
+        right: 60px;
+        font-size:8px;
     }
 }
 
-@media screen and (max-width: 645px){
-    .texto1{
+@media screen and (max-width: 645px) {
+    .texto1 {
         left: -95px;
         top: 50px;
     }
 
-    .iconify10{
+    .iconify10 {
         left: 135px;
         top: 58px;
     }
-    .texto2{
-        top:13px;
+
+    .texto2 {
+        top: 13px;
         left: -625px;
     }
 
-    .iconify20{
+    .iconify20 {
         left: 70px;
         top: 23px;
     }
 
-    .texto3{
+    .texto3 {
         top: 13px;
         left: -670px;
     }
 
-    .iconify30{
+    .iconify30 {
         left: 340px;
         top: 20px;
     }
 
-    .foto7{
+    .foto7 {
         left: 500px;
     }
 
-    .menu2 li{
+    .menu2 li {
         left: 285px;
     }
 
-    .menu2 li:hover{
+    .menu2 li:hover {
         margin-left: 130px;
         width: 170px;
     }
+
+    .marcas {
+        top: 40px;
+    }
+
+    .container {
+        top: 100px;
+    }
+
+    .categorias {
+        top: 170px;
+    }
+
+    .container20 {
+        top: 190px;
+    }
+
+    footer {
+        bottom: -640px;
+    }
 }
 
-@media screen and (max-width: 605px){
-    .texto1{
+@media screen and (max-width: 605px) {
+    .texto1 {
         font-size: 13px;
         left: -95px;
         top: 52px;
     }
 
-    .iconify10{
+    .iconify10 {
         left: 140px;
         top: 63px;
     }
 
-    .iconify11{
+    .iconify11 {
         width: 22px;
     }
 
-    .texto2{
+    .texto2 {
         font-size: 13px;
-        top:17px;
+        top: 17px;
         left: -610px;
     }
 
-    .iconify20{
+    .iconify20 {
         left: 90px;
         top: 27px;
     }
 
-    .iconify21{
+    .iconify21 {
         width: 23px;
     }
 
-    .texto3{
+    .texto3 {
         font-size: 13px;
         top: 17px;
         left: -670px;
     }
 
-    .iconify30{
+    .iconify30 {
         left: 340px;
         top: 24px;
     }
 
-    .iconify31{
+    .iconify31 {
         width: 32px;
     }
 
-    .foto7{
+    .foto7 {
         left: 500px;
-        top:103px;
+        top: 103px;
     }
 
-    .menu2 li{
+    .menu2 li {
         left: 270px;
         font-size: 27px;
         top: 280px;
     }
 
-    .responsive{
+    .responsive {
         width: 90px;
     }
 
-    .barra12{
-        margin-top:-600px;
+    .barra12 {
+        margin-top: -600px;
         transition: all 1000ms;
         overflow: hidden;
         max-width: 2000px;
         width: 100%;
     }
 
-    .menu2 li{
+    .menu2 li {
         top: 285px;
     }
 
-    label{
+    label {
         top: 18px;
     }
 
-    #check:checked ~ label{
-     top: 10px;
+    #check:checked ~ label {
+        top: 10px;
     }
 
-    .barramenu{
+    .barramenu {
         width: 50px;
     }
 
-    #check:checked ~ .barra12{
+    #check:checked ~ .barra12 {
         margin-top: -350px;
     }
 
-    .menu2 li:hover{
+    .menu2 li:hover {
         margin-left: 150px;
         width: 130px;
     }
 
-    label{
+    label {
         top: -662px;
     }
 
-    #check:checked ~ label{
+    #check:checked ~ label {
         top: -920px;
+    }
+
+    footer {
+        height: 320px;
+        bottom: -640px;
+    }
+
+    .contacto {
+        top: 55px;
+        font-size: 13px;
+        right:55px;
+    }
+
+    .titdireccion {
+        top: 100px;
+        right: 60px;
+        font-size: 9px;
+    }
+
+    .direccion {
+        top: 125px;
+        right: 60px;
+        font-size: 7px;
+    }
+
+    .titcorreo {
+        top: 150px;
+        right: 60px;
+        font-size: 9px;
+    }
+
+    .correo {
+        top: 175px;
+        right: 60px;
+        font-size:7px;
+    }
+
+    .tittelf {
+        top: 200px;
+        right: 60px;
+        font-size: 9px;
+    }
+
+    .telf {
+        top: 225px;
+        right: 60px;
+        font-size:7px;
     }
 }
 
-@media screen and (max-width: 570px){
+@media screen and (max-width: 570px) {
 
-    .barra42{
-    display: none;
+    .barra42 {
+        display: none;
     }
 
-    .barra400{
+    .barra400 {
         display: inline-block;
         z-index: 1;
         max-width: 580px;
         width: 100%;
     }
 
-    .barra4000{
+    .barra4000 {
         width: 100%;
         height: 100px;
     }
 
-    .texto1{
+    .texto1 {
         left: -105px;
         top: 52px;
     }
 
-    .iconify10{
+    .iconify10 {
         left: 133px;
         top: 63px;
     }
 
-    .texto2{
-        top:17px;
+    .texto2 {
+        top: 17px;
         left: -615px;
     }
 
-    .iconify20{
+    .iconify20 {
         left: 85px;
         top: 27px;
     }
 
-
-    .texto3{
+    .texto3 {
         top: 17px;
         left: -715px;
     }
 
-    .iconify30{
+    .iconify30 {
         left: 300px;
         top: 24px;
     }
 
-
-    .foto7{
+    .foto7 {
         left: 465px;
-        top:103px;
+        top: 103px;
     }
 
-    .menu2 li{
+    .menu2 li {
         left: 250px;
         font-size: 27px;
         top: 285px;
     }
 
-    .responsive{
+    .responsive {
         width: 90px;
     }
 
-    .barra12{
-        margin-top:-600px;
+    .barra12 {
+        margin-top: -600px;
         transition: all 1000ms;
         overflow: hidden;
         max-width: 2000px;
         width: 100%;
     }
+
+    .categorias{
+        font-size:30px;
+    }
+
+    .marcas{
+        font-size:30px;
+    }
+
+    footer {
+        height: 270px;
+        bottom: -600px;
+    }
+
+    .contacto {
+        top: 45px;
+        font-size: 12px;
+        right:40px;
+    }
+
+    .titdireccion {
+        top: 85px;
+        right: 45px;
+        font-size: 9px;
+    }
+
+    .direccion {
+        top: 105px;
+        right: 45px;
+        font-size: 7px;
+    }
+
+    .titcorreo {
+        top: 125px;
+        right: 45px;
+        font-size: 9px;
+    }
+
+    .correo {
+        top: 145px;
+        right: 45px;
+        font-size:7px;
+    }
+
+    .tittelf {
+        top: 165px;
+        right: 45px;
+        font-size: 9px;
+    }
+
+    .telf {
+        top: 185px;
+        right: 45px;
+        font-size:7px;
+    }
 }
 
-@media screen and (max-width: 535px){
-    .texto1{
+@media screen and (max-width: 550px){
+    .marcas {
+        top: -10px;
+    }
+
+    .container {
+        top: 30px;
+    }
+
+    .categorias {
+        top: 90px;
+    }
+
+    .container20 {
+        top: 100px;
+    }
+
+    footer {
+        bottom: -500px;
+    }
+}
+
+@media screen and (max-width: 535px) {
+    .texto1 {
         left: -120px;
         top: 52px;
     }
 
-    .iconify10{
+    .iconify10 {
         left: 118px;
         top: 63px;
     }
 
-    .texto2{
-        top:17px;
+    .texto2 {
+        top: 17px;
         left: -625px;
     }
 
-    .iconify20{
+    .iconify20 {
         left: 75px;
         top: 27px;
     }
 
 
-    .texto3{
+    .texto3 {
         top: 17px;
         left: -735px;
     }
 
-    .iconify30{
+    .iconify30 {
         left: 280px;
         top: 24px;
     }
 
-    .foto7{
+    .foto7 {
         left: 430px;
-        top:103px;
+        top: 103px;
     }
 
-    .menu2 li{
+    .menu2 li {
         left: 250px;
         font-size: 27px;
         top: 285px;
     }
 
-    .responsive{
+    .responsive {
         width: 90px;
     }
 
-    .barra12{
-        margin-top:-600px;
+    .barra12 {
+        margin-top: -600px;
         transition: all 1000ms;
         overflow: hidden;
         max-width: 2000px;
@@ -2109,275 +3069,396 @@ z-index: 2;
 
 }
 
-@media screen and (max-width: 515px){
-    .menu2{
+@media screen and (max-width: 515px) {
+    .menu2 {
         margin-left: -300px;
     }
 
-    .menu2 li{
+    .menu2 li {
         left: 285px;
     }
+
+    footer {
+        height: 270px;
+        bottom: -500px;
+    }
+
+    .contacto {
+        top: 45px;
+        font-size: 12px;
+        right:40px;
+    }
+
+    .titdireccion {
+        top: 85px;
+        right: 45px;
+        font-size: 9px;
+    }
+
+    .direccion {
+        top: 105px;
+        right: 45px;
+        font-size: 7px;
+    }
+
+    .titcorreo {
+        top: 125px;
+        right: 45px;
+        font-size: 9px;
+    }
+
+    .correo {
+        top: 145px;
+        right: 45px;
+        font-size:7px;
+    }
+
+    .tittelf {
+        top: 165px;
+        right: 45px;
+        font-size: 9px;
+    }
+
+    .telf {
+        top: 185px;
+        right: 45px;
+        font-size:7px;
+    }
+
+    .fonditoo{
+        width: 100%;
+    }
+
+    .fondito{
+        width:100%;
+    }
+
+
 }
 
-@media screen and (max-width: 505px){
-    .texto1{
+@media screen and (max-width: 505px) {
+    .texto1 {
         font-size: 10px;
         left: -110px;
         top: 45px;
     }
 
-    .iconify10{
+    .iconify10 {
         left: 133px;
         top: 56px;
     }
 
-    .iconify11{
+    .iconify11 {
         width: 17px;
     }
 
-    .texto2{
+    .texto2 {
         font-size: 10px;
-        top:17px;
+        top: 17px;
         left: -610px;
     }
 
-    .iconify20{
+    .iconify20 {
         left: 96px;
         top: 28px;
     }
 
-    .iconify21{
+    .iconify21 {
         width: 17px;
     }
 
-    .texto3{
+    .texto3 {
         font-size: 10px;
         top: 17px;
         left: -755px;
     }
 
-    .iconify30{
+    .iconify30 {
         left: 268px;
         top: 26px;
     }
 
-    .iconify31{
+    .iconify31 {
         width: 22px;
     }
 
-    .foto7{
+    .foto7 {
         left: 425px;
-        top:88px;
+        top: 88px;
     }
 
-    .responsive{
+    .responsive {
         width: 72px;
     }
 
-    .menu2 li{
+    .menu2 li {
         left: 275px;
         font-size: 22px;
         top: 285px;
     }
 
-    .barramenu{
+    .barramenu {
         width: 40px;
     }
 
-    .barra12{
-        margin-top:-600px;
+    .barra12 {
+        margin-top: -600px;
         transition: all 1000ms;
         overflow: hidden;
         max-width: 2000px;
         width: 100%;
     }
 
-    .barra4000{
+    .barra4000 {
         height: 85px;
     }
 
-    .barra13{
+    .barra13 {
         height: 685px;
     }
 
-    label{
+    label {
         top: -665px;
     }
 
-    #check:checked ~ label{
-top: -900px;
+    #check:checked ~ label {
+        top: -900px;
     }
 
+    .carretera {
+        top: 65px;
+        font-size: 7px;
+        right: 52px;
+        display: inline-block;
+    }
+
+    .carreteraa {
+        display: inline-block;
+    }
+
+    .barrio {
+        top: 75px;
+        font-size: 7px;
+        right: 52px;
+        display: inline-block;
+    }
+
+    .barrioo{
+        display: inline-block;
+    }
+
+    .contacto {
+        top: 45px;
+        font-size: 12px;
+        right:40px;
+    }
+
+    .titdireccion {
+        top: 85px;
+        right: 45px;
+        font-size: 9px;
+    }
+
+    .direccion {
+        display: none;
+    }
+
+    .titcorreo {
+        top: 125px;
+        right: 45px;
+        font-size: 9px;
+    }
+
+    .correo {
+        top: 145px;
+        right: 45px;
+        font-size:7px;
+    }
+
+    .tittelf {
+        top: 165px;
+        right: 45px;
+        font-size: 9px;
+    }
+
+    .telf {
+        top: 185px;
+        right: 45px;
+        font-size:7px;
+    }
+}
+
+@media screen and (max-width: 495px) {
 
 
 }
 
-@media screen and (max-width: 480px){
-    .texto1{
+@media screen and (max-width: 480px) {
+    .texto1 {
         font-size: 10px;
         left: -130px;
         top: 45px;
     }
 
-    .iconify10{
+    .iconify10 {
         left: 114px;
         top: 56px;
     }
 
-    .iconify11{
+    .iconify11 {
         width: 17px;
     }
 
-    .texto2{
+    .texto2 {
         font-size: 10px;
-        top:17px;
+        top: 17px;
         left: -630px;
     }
 
-    .iconify20{
+    .iconify20 {
         left: 75px;
         top: 28px;
     }
 
-    .iconify21{
+    .iconify21 {
         width: 17px;
     }
 
-    .texto3{
+    .texto3 {
         font-size: 10px;
         top: 17px;
         left: -775px;
     }
 
-    .iconify30{
+    .iconify30 {
         left: 248px;
         top: 26px;
     }
 
-    .iconify31{
+    .iconify31 {
         width: 22px;
     }
 
-    .foto7{
+    .foto7 {
         left: 410px;
-        top:88px;
+        top: 88px;
     }
 
-    .responsive{
+    .responsive {
         width: 63px;
     }
 
-    .menu2 li{
+    .menu2 li {
         left: 330px;
         font-size: 18px;
         top: 307px;
     }
 
-    label{
+    label {
         top: -668px;
     }
 
-    .barramenu{
+    .barramenu {
         width: 40px;
     }
 
-    .barra12{
-        margin-top:-600px;
+    .barra12 {
+        margin-top: -600px;
         transition: all 1000ms;
         overflow: hidden;
         max-width: 2000px;
         width: 100%;
     }
 
-    .barra4000{
+    .barra4000 {
         height: 85px;
     }
 
-    .barra13{
-        margin-top:10px;
+    .barra13 {
+        margin-top: 10px;
     }
 
-    .barramenu{
+    .barramenu {
         width: 30px;
     }
 
-    #check:checked ~ .barra12{
+    #check:checked ~ .barra12 {
         margin-bottom: -30px;
     }
 
-    .barra12{
+    .barra12 {
         margin-bottom: -4px;
     }
 }
 
-@media screen and (max-width: 480px){
-    .menu2{
+@media screen and (max-width: 480px) {
+    .menu2 {
         margin-left: -450px;
     }
 
-    .menu2 li{
+    .menu2 li {
         left: 405px;
     }
 }
 
-@media screen and (max-width: 455px){
+@media screen and (max-width: 455px) {
 
-    .texto1{
+    .texto1 {
         font-size: 10px;
         left: -130px;
         top: 45px;
     }
 
-    .iconify10{
+    .iconify10 {
         left: 114px;
         top: 56px;
     }
 
-    .iconify11{
+    .iconify11 {
         width: 17px;
     }
 
-    .texto2{
+    .texto2 {
         font-size: 10px;
-        top:17px;
+        top: 17px;
         left: -624px;
         margin-right: 50px;
     }
 
-    .iconify20{
+    .iconify20 {
         left: 82px;
         top: 28px;
     }
 
-    .iconify21{
+    .iconify21 {
         width: 17px;
     }
 
-    .texto3{
+    .texto3 {
         font-size: 10px;
         top: 17px;
         left: -785px;
     }
 
-    .iconify30{
+    .iconify30 {
         left: 238px;
         top: 26px;
     }
 
-    .iconify31{
+    .iconify31 {
         width: 22px;
     }
 
-    .foto7{
+    .foto7 {
         left: 380px;
-        top:88px;
+        top: 88px;
     }
 
-    .responsive{
+    .responsive {
         width: 63px;
     }
 
-    .menu2 li{
+    .menu2 li {
         left: 645px;
         font-size: 18px;
         top: 307px;
@@ -2385,875 +3466,967 @@ top: -900px;
     }
 
 
-    .menu2 li:hover{
+    .menu2 li:hover {
         margin-left: 55px;
         margin-bottom: -10px;
         width: 150px;
     }
 
-    .barramenu{
+    .barramenu {
         width: 40px;
     }
 
-    .barra12{
-        margin-top:-600px;
+    .barra12 {
+        margin-top: -600px;
         transition: all 1000ms;
         overflow: hidden;
         max-width: 2000px;
         width: 100%;
     }
 
-    .barra4000{
+    .barra4000 {
         height: 85px;
     }
 
-    .barra13{
-        margin-top:10px;
+    .barra13 {
+        margin-top: 10px;
     }
 
-    .barramenu{
+    .barramenu {
         width: 30px;
     }
 
-    #check:checked ~ .barra12{
+    #check:checked ~ .barra12 {
         margin-bottom: -30px;
     }
 
-    .barra12{
+    .barra12 {
         margin-bottom: -4px;
     }
 
-    .menu2{
+    .menu2 {
         margin-left: -600px;
     }
 }
 
-@media screen and (max-width: 425px){
-    .texto1{
+@media screen and (max-width: 425px) {
+    .texto1 {
         font-size: 10px;
         left: -160px;
         top: 45px;
     }
 
-    .iconify10{
+    .iconify10 {
         left: 84px;
         top: 56px;
     }
 
-    .iconify11{
+    .iconify11 {
         width: 17px;
     }
 
-    .texto2{
+    .texto2 {
         font-size: 10px;
-        top:17px;
+        top: 17px;
         left: -640px;
     }
 
-    .iconify20{
+    .iconify20 {
         left: 65px;
         top: 28px;
     }
 
-    .iconify21{
+    .iconify21 {
         width: 17px;
     }
 
-    .texto3{
+    .texto3 {
         font-size: 10px;
         top: 17px;
         left: -805px;
     }
 
-    .iconify30{
+    .iconify30 {
         left: 218px;
         top: 26px;
     }
 
-    .iconify31{
+    .iconify31 {
         width: 22px;
     }
 
-    .foto7{
+    .foto7 {
         left: 360px;
-        top:88px;
+        top: 88px;
     }
 
-    .responsive{
+    .responsive {
         width: 63px;
     }
 
-    .menu2 li{
+    .menu2 li {
         left: 500px;
         font-size: 18px;
         top: 307px;
     }
 
-    .barramenu{
+    .barramenu {
         width: 40px;
     }
 
-    .barra12{
-        margin-top:-600px;
+    .barra12 {
+        margin-top: -600px;
         transition: all 1000ms;
         overflow: hidden;
         max-width: 2000px;
         width: 100%;
     }
 
-    .barra4000{
+    .barra4000 {
         height: 85px;
     }
 
-    .barra13{
-        margin-top:10px;
+    .barra13 {
+        margin-top: 10px;
     }
 
-    .barramenu{
+    .barramenu {
         width: 30px;
     }
 
-    #check:checked ~ .barra12{
+    #check:checked ~ .barra12 {
         margin-bottom: -30px;
     }
 
-    .barra12{
+    .barra12 {
         margin-bottom: -4px;
     }
 
-    .menu2{
+    .menu2 {
         margin-left: -480px;
     }
 }
 
-@media screen and (max-width: 405px){
-    .texto1{
+@media screen and (max-width: 405px) {
+    .texto1 {
         font-size: 10px;
         left: -170px;
         top: 45px;
     }
 
-    .iconify10{
+    .iconify10 {
         left: 74px;
         top: 56px;
     }
 
-    .texto2{
+    .texto2 {
         font-size: 10px;
-        top:17px;
+        top: 17px;
         left: -650px;
     }
 
-    .iconify20{
+    .iconify20 {
         left: 55px;
         top: 28px;
     }
 
-    .texto3{
+    .texto3 {
         font-size: 10px;
         top: 17px;
         left: -835px;
     }
 
-    .iconify30{
+    .iconify30 {
         left: 188px;
         top: 26px;
     }
 
 
-    .foto7{
+    .foto7 {
         left: 340px;
-        top:88px;
+        top: 88px;
     }
 
-    .responsive{
+    .responsive {
         width: 63px;
     }
 
-    .menu2 li{
+    .menu2 li {
         left: 490px;
         font-size: 18px;
         top: 307px;
     }
 
 
-    .barramenu{
+    .barramenu {
         width: 40px;
     }
 
-    .barra12{
-        margin-top:-600px;
+    .barra12 {
+        margin-top: -600px;
         transition: all 1000ms;
         overflow: hidden;
         max-width: 2000px;
         width: 100%;
     }
 
-    .barra4000{
+    .barra4000 {
         height: 85px;
     }
 
-    .barra13{
-        margin-top:10px;
+    .barra13 {
+        margin-top: 10px;
     }
 
-    .barramenu{
+    .barramenu {
         width: 30px;
     }
 
-    #check:checked ~ .barra12{
+    #check:checked ~ .barra12 {
         margin-bottom: -30px;
     }
 
-    .barra12{
+    .barra12 {
         margin-bottom: -4px;
     }
 
+    .barra4001 {
+        display: inline-block;
+        z-index: 1;
+        max-width: 580px;
+        width: 100%;
+    }
+
+    .barra4002 {
+        width: 100%;
+        height: 85px;
+    }
+
+    .barra400 {
+        display: none;
+    }
+
 }
-@media screen and (max-width: 385px){
-    .texto1{
+
+@media screen and (max-width: 385px) {
+    .texto1 {
         font-size: 10px;
         left: -170px;
         top: 45px;
     }
 
-    .iconify10{
+    .iconify10 {
         left: 74px;
         top: 56px;
     }
 
-    .iconify11{
+    .iconify11 {
         width: 17px;
     }
 
-    .texto2{
+    .texto2 {
         font-size: 10px;
-        top:17px;
+        top: 17px;
         left: -650px;
     }
 
-    .iconify20{
+    .iconify20 {
         left: 55px;
         top: 28px;
     }
 
-    .iconify21{
+    .iconify21 {
         width: 17px;
     }
 
-    .texto3{
+    .texto3 {
         font-size: 10px;
         top: 17px;
         left: -845px;
     }
 
-    .iconify30{
+    .iconify30 {
         left: 178px;
         top: 26px;
     }
 
-    .iconify31{
+    .iconify31 {
         width: 22px;
     }
 
-    .foto7{
+    .foto7 {
         left: 320px;
-        top:88px;
+        top: 88px;
     }
 
-    .responsive{
+    .responsive {
         width: 63px;
     }
 
-    .menu2 li{
+    .menu2 li {
         left: 480px;
         font-size: 18px;
         top: 307px;
     }
 
 
-    .barramenu{
+    .barramenu {
         width: 40px;
     }
 
-    .barra12{
-        margin-top:-600px;
+    .barra12 {
+        margin-top: -600px;
         transition: all 1000ms;
         overflow: hidden;
         max-width: 2000px;
         width: 100%;
     }
 
-    .barra4000{
+    .barra4000 {
         height: 85px;
     }
 
-    .barra13{
-        margin-top:10px;
+    .barra13 {
+        margin-top: 10px;
     }
 
-    .barramenu{
+    .barramenu {
         width: 30px;
     }
 
-    #check:checked ~ .barra12{
+    #check:checked ~ .barra12 {
         margin-bottom: -30px;
     }
 
-    .barra12{
+    .barra12 {
         margin-bottom: -4px;
     }
 
 }
 
-@media screen and (max-width: 365px){
-    .texto1{
+@media screen and (max-width: 365px) {
+    .texto1 {
         font-size: 10px;
         left: -185px;
         top: 45px;
     }
 
-    .iconify10{
+    .iconify10 {
         left: 60px;
         top: 56px;
     }
 
-    .iconify11{
+    .iconify11 {
         width: 17px;
     }
 
-    .texto2{
+    .texto2 {
         font-size: 10px;
-        top:17px;
+        top: 17px;
         left: -660px;
     }
 
-    .iconify20{
+    .iconify20 {
         left: 45px;
         top: 28px;
     }
 
-    .iconify21{
+    .iconify21 {
         width: 17px;
     }
 
-    .texto3{
+    .texto3 {
         font-size: 10px;
         top: 17px;
         left: -855px;
     }
 
-    .iconify30{
+    .iconify30 {
         left: 168px;
         top: 26px;
     }
 
-    .iconify31{
+    .iconify31 {
         width: 22px;
     }
 
-    .foto7{
+    .foto7 {
         left: 300px;
-        top:88px;
+        top: 88px;
     }
 
-    .responsive{
+    .responsive {
         width: 63px;
     }
 
-    .menu2 li{
+    .menu2 li {
         left: 470px;
         font-size: 18px;
         top: 307px;
     }
 
 
-    .barramenu{
+    .barramenu {
         width: 40px;
     }
 
-    .barra12{
-        margin-top:-600px;
+    .barra12 {
+        margin-top: -600px;
         transition: all 1000ms;
         overflow: hidden;
         max-width: 2000px;
         width: 100%;
     }
 
-    .barra4000{
+    .barra4000 {
         height: 85px;
     }
 
-    .barra13{
-        margin-top:10px;
+    .barra13 {
+        margin-top: 10px;
     }
 
-    .barramenu{
+    .barramenu {
         width: 30px;
     }
 
-    #check:checked ~ .barra12{
+    #check:checked ~ .barra12 {
         margin-bottom: -30px;
     }
 
-    .barra12{
+    .barra12 {
         margin-bottom: -4px;
     }
 
+    .textito p{
+        left:10px;
+    }
 }
 
-@media screen and (max-width: 345px){
-    .texto1{
+@media screen and (max-width: 345px) {
+    .texto1 {
         font-size: 10px;
         left: -185px;
         top: 45px;
     }
 
-    .iconify10{
+    .iconify10 {
         left: 60px;
         top: 56px;
     }
 
-    .iconify11{
+    .iconify11 {
         width: 17px;
     }
 
-    .texto2{
+    .texto2 {
         font-size: 10px;
-        top:17px;
+        top: 17px;
         left: -660px;
     }
 
-    .iconify20{
+    .iconify20 {
         left: 45px;
         top: 28px;
     }
 
-    .iconify21{
+    .iconify21 {
         width: 17px;
     }
 
-    .texto3{
+    .texto3 {
         font-size: 10px;
         top: 17px;
         left: -855px;
     }
 
-    .iconify30{
+    .iconify30 {
         left: 168px;
         top: 26px;
     }
 
-    .iconify31{
+    .iconify31 {
         width: 22px;
     }
 
-    .foto7{
+    .foto7 {
         left: 280px;
-        top:88px;
+        top: 88px;
     }
 
-    .responsive{
+    .responsive {
         width: 63px;
     }
 
-    .menu2 li{
+    .menu2 li {
         left: 460px;
         font-size: 18px;
         top: 307px;
     }
 
 
-    .barramenu{
+    .barramenu {
         width: 40px;
     }
 
-    .barra12{
-        margin-top:-600px;
+    .barra12 {
+        margin-top: -600px;
         transition: all 1000ms;
         overflow: hidden;
         max-width: 2000px;
         width: 100%;
     }
 
-    .barra4000{
+    .barra4000 {
         height: 85px;
     }
 
-    .barra13{
-        margin-top:10px;
+    .barra13 {
+        margin-top: 10px;
     }
 
-    .barramenu{
+    .barramenu {
         width: 30px;
     }
 
-    #check:checked ~ .barra12{
+    #check:checked ~ .barra12 {
         margin-bottom: -30px;
     }
 
-    .barra12{
+    .barra12 {
         margin-bottom: -4px;
     }
 
 }
 
-@media screen and (max-width: 325px){
-    .texto1{
+@media screen and (max-width: 325px) {
+    .texto1 {
         font-size: 10px;
         left: -195px;
         top: 45px;
     }
 
-    .iconify10{
+    .iconify10 {
         left: 50px;
         top: 56px;
     }
 
-    .iconify11{
+    .iconify11 {
         width: 17px;
     }
 
-    .texto2{
+    .texto2 {
         font-size: 10px;
-        top:17px;
+        top: 17px;
         left: -680px;
     }
 
-    .iconify20{
+    .iconify20 {
         left: 25px;
         top: 28px;
     }
 
-    .iconify21{
+    .iconify21 {
         width: 17px;
     }
 
-    .texto3{
+    .texto3 {
         font-size: 10px;
         top: 17px;
         left: -875px;
     }
 
-    .iconify30{
+    .iconify30 {
         left: 148px;
         top: 26px;
     }
 
-    .iconify31{
+    .iconify31 {
         width: 22px;
     }
 
-    .foto7{
+    .foto7 {
         left: 260px;
-        top:88px;
+        top: 88px;
     }
 
-    .responsive{
+    .responsive {
         width: 63px;
     }
 
-    .menu2 li{
+    .menu2 li {
         left: 450px;
         font-size: 18px;
         top: 307px;
     }
 
 
-    .barramenu{
+    .barramenu {
         width: 40px;
     }
 
-    .barra12{
-        margin-top:-600px;
+    .barra12 {
+        margin-top: -600px;
         transition: all 1000ms;
         overflow: hidden;
         max-width: 2000px;
         width: 100%;
     }
 
-    .barra4000{
+    .barra4000 {
         height: 85px;
     }
 
-    .barra13{
-        margin-top:10px;
+    .barra13 {
+        margin-top: 10px;
     }
 
-    .barramenu{
+    .barramenu {
         width: 30px;
     }
 
-    #check:checked ~ .barra12{
+    #check:checked ~ .barra12 {
         margin-bottom: -30px;
     }
 
-    .barra12{
+    .barra12 {
         margin-bottom: -4px;
+    }
+
+    .barra4003 {
+        display: inline-block;
+        z-index: 1;
+        max-width: 580px;
+        width: 100%;
+    }
+
+    .barra4004 {
+        width: 100%;
+        height: 85px;
+    }
+
+    .barra4001 {
+        display: none;
     }
 
 }
 
-@media screen and (max-width: 305px){
-    .texto1{
+@media screen and (max-width: 305px) {
+    .texto1 {
         font-size: 10px;
         left: -205px;
         top: 45px;
     }
 
-    .iconify10{
+    .iconify10 {
         left: 40px;
         top: 56px;
     }
 
-    .iconify11{
+    .iconify11 {
         width: 17px;
     }
 
-    .texto2{
+    .texto2 {
         font-size: 10px;
-        top:17px;
+        top: 17px;
         left: -670px;
     }
 
-    .iconify20{
+    .iconify20 {
         left: 35px;
         top: 28px;
     }
 
-    .iconify21{
+    .iconify21 {
         width: 17px;
     }
 
-    .texto3{
+    .texto3 {
         font-size: 10px;
         top: 17px;
         left: -895px;
     }
 
-    .iconify30{
+    .iconify30 {
         left: 132px;
         top: 26px;
     }
 
-    .iconify31{
+    .iconify31 {
         width: 22px;
     }
 
-    .foto7{
+    .foto7 {
         left: 240px;
-        top:88px;
+        top: 88px;
     }
 
-    .responsive{
+    .responsive {
         width: 63px;
     }
 
-    .menu2 li{
+    .menu2 li {
         left: 440px;
         font-size: 18px;
         top: 307px;
     }
 
 
-    .barramenu{
+    .barramenu {
         width: 40px;
     }
 
-    .barra12{
-        margin-top:-600px;
+    .barra12 {
+        margin-top: -600px;
         transition: all 1000ms;
         overflow: hidden;
         max-width: 2000px;
         width: 100%;
     }
 
-    .barra4000{
+    .barra4000 {
         height: 85px;
     }
 
-    .barra13{
-        margin-top:10px;
+    .barra13 {
+        margin-top: 10px;
     }
 
-    .barramenu{
+    .barramenu {
         width: 30px;
     }
 
-    #check:checked ~ .barra12{
+    #check:checked ~ .barra12 {
         margin-bottom: -30px;
     }
 
-    .barra12{
+    .barra12 {
         margin-bottom: -4px;
     }
 
 }
 
-@media screen and (max-width: 285px){
-    .texto1{
+@media screen and (max-width: 285px) {
+    .texto1 {
         font-size: 10px;
         left: -215px;
         top: 45px;
     }
 
-    .iconify10{
+    .iconify10 {
         left: 30px;
         top: 56px;
     }
 
-    .texto2{
+    .texto2 {
         font-size: 10px;
-        top:17px;
+        top: 17px;
         left: -680px;
     }
 
-    .iconify20{
+    .iconify20 {
         left: 25px;
         top: 28px;
     }
 
-    .texto3{
+    .texto3 {
         font-size: 10px;
         top: 17px;
         left: -905px;
     }
 
-    .iconify30{
+    .iconify30 {
         left: 122px;
         top: 26px;
     }
 
 
-    .foto7{
+    .foto7 {
         left: 230px;
-        top:88px;
+        top: 88px;
     }
 
-    .responsive{
+    .responsive {
         width: 63px;
     }
 
-    .menu2 li{
+    .menu2 li {
         left: 545px;
         font-size: 18px;
         top: 307px;
     }
 
 
-    .barramenu{
+    .barramenu {
         width: 40px;
     }
 
-    .barra12{
-        margin-top:-600px;
+    .barra12 {
+        margin-top: -600px;
         transition: all 1000ms;
         overflow: hidden;
         max-width: 2000px;
         width: 100%;
     }
 
-    .barra4000{
+    .barra4000 {
         height: 85px;
     }
 
-    .barra13{
-        margin-top:10px;
+    .barra13 {
+        margin-top: 10px;
     }
 
-    .barramenu{
+    .barramenu {
         width: 30px;
     }
 
-    #check:checked ~ .barra12{
+    #check:checked ~ .barra12 {
         margin-bottom: -30px;
     }
 
-    .barra12{
+    .barra12 {
         margin-bottom: -4px;
     }
 
-    .menu2{
+    .menu2 {
         margin-left: -600px;
     }
 }
 
-@media screen and (max-width: 470px){
-    .container{
-        top: -470px;
+@media screen and (max-width: 470px) {
+    .container {
+        top: -10px;
     }
 
-    .marcas{
-        top: -520px;
+    .marcas {
+        top:-40px;
         font-size: 20px;
     }
 
-    .boton2{
+    .boton2 {
         width: 30px;
     }
 
-    .container20{
-        top: -350px;
+    .container20 {
+        top: 30px;
     }
 
-    .categorias{
-        top: -340px;
+    .categorias {
+        top: 25px;
         font-size: 20px;
+    }
+
+    .marcas2 {
+        display: block;
+        font-size: 20px;
+        text-align: center;
+        top: -1240px;
+    }
+
+    .redes {
+        display: none;
+    }
+
+    footer{
+        bottom:-430px;
     }
 }
 
-@media screen and (max-width: 444px){
-    .container{
-        top: -490px;
+@media screen and (max-width: 444px) {
+    .container {
+        top: -10px;
     }
 
-    .marcas{
-        top: -520px;
+    .marcas {
+        top: -40px;
         font-size: 20px;
     }
 
-    .container20{
-        top: -350px;
+    .container20 {
+        top: 30px;
     }
 
-    .categorias{
-        top: -340px;
+    .categorias {
+        top: 25px;
         font-size: 20px;
     }
 }
 
 @media screen and (min-width: 270px) {
 
-    .container{
+    .container {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .container20{
-        grid-template-columns: repeat(2, 1fr);
+    .container20 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and (min-width: 270px) and (max-width: 590px) {
+    .container20 {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 590px){
+    .textito p{
+        font-size:4vw;
+        position: absolute;
     }
 }
 
 @media screen and (min-width: 590px) {
 
-    .container{
-        grid-template-columns: repeat(3, 1fr);
+    .container {
+        grid-template-columns: repeat(2, 1fr);
     }
 
-    .container20{
+
+    .container20 {
         grid-template-columns: repeat(3, 1fr);
     }
 }
 
 
-
 @media screen and (min-width: 960px) {
 
-    .container{
+    .container {
         grid-template-columns: repeat(4, 1fr);
     }
 
-    .container20{
+    .container20 {
         grid-template-columns: repeat(3, 1fr);
     }
+
+}
+
+@media screen and (min-width: 270px) and (max-width: 960px) {
+    .container {
+        width: 70%;
+    }
+}
+
+
+@media screen and (max-width: 1130px) {
+
+
+}
+
+
+@media screen and (max-width: 970px) {
+
+
+}
+
+@media screen and (max-width: 840px) {
+
+
+}
+
+@media screen and (max-width: 760px) {
+
 
 }

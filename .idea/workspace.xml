@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0722fc57-6597-4f9a-b9e5-fe521620d1bb" name="Default Changelist" comment="" />
+    <list default="true" id="0722fc57-6597-4f9a-b9e5-fe521620d1bb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EstiloNuevo.css" beforeDir="false" afterPath="$PROJECT_DIR$/EstiloNuevo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Imágenes/3D-black-diamond-free-desktop-wallpaper-1920x1080.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Imágenes/4k-black-stone-background-cracked-stone-texture-stone-textures-grunge-backgrounds-besthqwallpapers.com-2048x1536.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Imágenes/Barra40.png" beforeDir="false" afterPath="$PROJECT_DIR$/Imágenes/Barra40.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Imágenes/Barra400.png" beforeDir="false" afterPath="$PROJECT_DIR$/Imágenes/Barra400.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Imágenes/Barra41.png" beforeDir="false" afterPath="$PROJECT_DIR$/Imágenes/Barra41.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Imágenes/Genie logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/Imágenes/Genie logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Imágenes/JCB 3.png" beforeDir="false" afterPath="$PROJECT_DIR$/Imágenes/JCB 3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Imágenes/Komatsu logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/Imágenes/Komatsu logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Imágenes/New Holland logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/Imágenes/New Holland logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Imágenes/Up Button final 3.png" beforeDir="false" afterPath="$PROJECT_DIR$/Imágenes/Up Button final 3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Imágenes/Vibro.png" beforeDir="false" afterPath="$PROJECT_DIR$/Imágenes/Vibro.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Imágenes/Whatsapp.png" beforeDir="false" afterPath="$PROJECT_DIR$/Imágenes/Whatsapp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Imágenes/Zoomlion logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/Imágenes/Zoomlion logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Imágenes/wp3516802-black-pattern-wallpaper-hd.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Imágenes/wp3516802-black-pattern-wallpaper-hd.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Imágenes/wpp.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Imágenes/wppp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -142,7 +162,51 @@
       <workItem from="1613188239238" duration="2412000" />
       <workItem from="1613245542323" duration="11822000" />
       <workItem from="1613271387211" duration="4376000" />
-      <workItem from="1613312440606" duration="1643000" />
+      <workItem from="1613312440606" duration="11684000" />
+      <workItem from="1613331595313" duration="1125000" />
+      <workItem from="1613339246851" duration="5971000" />
+      <workItem from="1613414096232" duration="19756000" />
+      <workItem from="1613492590232" duration="4012000" />
+      <workItem from="1613506052878" duration="4675000" />
+      <workItem from="1613525586356" duration="5938000" />
+      <workItem from="1613595771947" duration="610000" />
+      <workItem from="1613604801858" duration="6165000" />
+      <workItem from="1613653204930" duration="665000" />
+      <workItem from="1613775356620" duration="2691000" />
+      <workItem from="1613948495704" duration="6274000" />
+      <workItem from="1614028393479" duration="1668000" />
+      <workItem from="1614041009577" duration="1259000" />
+      <workItem from="1614122217352" duration="751000" />
+      <workItem from="1614197636462" duration="812000" />
+      <workItem from="1614202837711" duration="13667000" />
+      <workItem from="1614287941711" duration="2293000" />
+      <workItem from="1614302654123" duration="62000" />
+      <workItem from="1614347363855" duration="5194000" />
+      <workItem from="1614370584134" duration="11451000" />
+      <workItem from="1614468600905" duration="638000" />
+      <workItem from="1614633177144" duration="1792000" />
+      <workItem from="1614692414036" duration="2641000" />
+      <workItem from="1614806567028" duration="1730000" />
+      <workItem from="1614820503114" duration="4303000" />
+      <workItem from="1614909352603" duration="4190000" />
+      <workItem from="1614954774778" duration="2423000" />
+      <workItem from="1614974135182" duration="1770000" />
+      <workItem from="1614984427081" duration="4878000" />
+      <workItem from="1614998580687" duration="35000" />
+      <workItem from="1615046316981" duration="2702000" />
+      <workItem from="1615150957718" duration="1183000" />
+      <workItem from="1615152950561" duration="100000" />
+      <workItem from="1615153977067" duration="973000" />
+      <workItem from="1615235844933" duration="3005000" />
+      <workItem from="1615322247276" duration="8887000" />
+      <workItem from="1615408885115" duration="6787000" />
+      <workItem from="1615481952675" duration="717000" />
+      <workItem from="1615498256745" duration="4425000" />
+      <workItem from="1615565736079" duration="33000" />
+      <workItem from="1615737461898" duration="6626000" />
+      <workItem from="1615755483844" duration="735000" />
+      <workItem from="1615863206235" duration="4000" />
+      <workItem from="1615927828356" duration="952000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1611617828931</created>
@@ -382,7 +446,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613313992681</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary=".">
+      <created>1613314102185</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1613314102185</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -397,10 +468,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="509" y="234" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1610205933895" />
-    <state x="572" y="0" key="CommitChangelistDialog2" timestamp="1612812275282">
+    <state x="572" y="0" key="CommitChangelistDialog2" timestamp="1613314099861">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="572" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1612812275282" />
+    <state x="572" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1613314099861" />
     <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1611328346820">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -409,14 +480,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="628" height="446" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1612657516866" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1612737679559">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1613314103736">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1612737679559" />
-    <state x="432" y="200" key="run.anything.popup" timestamp="1612917491956">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1613314103736" />
+    <state x="432" y="200" key="run.anything.popup" timestamp="1613966599520">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="432" y="200" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1612917491956" />
+    <state x="432" y="200" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1613966599520" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1611357717614">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
