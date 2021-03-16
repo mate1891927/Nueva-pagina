@@ -1,3 +1,6 @@
+*{
+    border: solid red 1px;
+}
 
 body::-webkit-scrollbar {
     width: 7px;
@@ -101,6 +104,7 @@ body {
     font-size: 1.6vw;
     font-weight: bolder;
     transition: all 0.4s;
+    cursor: pointer;
 
 }
 
@@ -199,6 +203,7 @@ body {
     font-size: 1.6vw;
     font-weight: bolder;
     transition: all 0.4s;
+    cursor: pointer;
 
 }
 
@@ -246,6 +251,7 @@ body {
     font-size: 1.6vw;
     font-weight: bolder;
     transition: all 0.4s;
+    cursor: pointer;
 
 }
 
@@ -4303,6 +4309,7 @@ body {
     .marcas {
         top:-40px;
         font-size: 20px;
+        display:none;
     }
 
     .boton2 {
