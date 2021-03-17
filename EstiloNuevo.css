@@ -4299,14 +4299,13 @@ body {
 }
 
 @media screen and (max-width: 470px) {
-    .container {
+    .container{
         top: -10px;
     }
 
     .marcas {
         top:-40px;
         font-size: 20px;
-        display:none;
     }
 
     .boton2 {
@@ -4322,13 +4321,6 @@ body {
         font-size: 20px;
     }
 
-    .marcas2 {
-        display: block;
-        font-size: 20px;
-        text-align: center;
-        top: -1240px;
-    }
-
     .redes {
         display: none;
     }
@@ -4341,11 +4333,6 @@ body {
 @media screen and (max-width: 444px) {
     .container {
         top: -10px;
-    }
-
-    .marcas {
-        top: -40px;
-        font-size: 20px;
     }
 
     .container20 {
