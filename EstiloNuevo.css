@@ -1463,6 +1463,12 @@ body {
     .item20:hover .fotito {
         display: none;
     }
+
+    footer {
+        background-image: url(Imágenes/Ciudad3.png);
+        background-attachment: initial;
+        background-size: cover;
+    }
 }
 
 @media screen and (max-width: 1180px) {
@@ -3082,7 +3088,7 @@ body {
     }
 
     footer {
-        height: 270px;
+        height: 260px;
         bottom: -500px;
     }
 
@@ -3240,7 +3246,7 @@ body {
     }
 
     .barrio {
-        top: 75px;
+        top: 78px;
         font-size: 7px;
         right: 52px;
         display: inline-block;
@@ -3267,25 +3273,25 @@ body {
     }
 
     .titcorreo {
-        top: 125px;
+        top: 130px;
         right: 45px;
         font-size: 9px;
     }
 
     .correo {
-        top: 145px;
+        top: 148px;
         right: 45px;
         font-size:7px;
     }
 
     .tittelf {
-        top: 165px;
+        top: 163px;
         right: 45px;
         font-size: 9px;
     }
 
     .telf {
-        top: 185px;
+        top: 181px;
         right: 45px;
         font-size:7px;
     }
@@ -3293,6 +3299,44 @@ body {
 
 @media screen and (max-width: 495px) {
 
+    .contacto {
+        top: 30px;
+    }
+
+    .titdireccion {
+        top: 70px;
+    }
+
+    .carretera {
+        top: 50px;
+    }
+
+    .barrio {
+        top: 63px;
+    }
+
+    .direccion {
+        display: none;
+    }
+
+    .titcorreo {
+        top: 115px;
+    }
+
+    .correo {
+        top: 133px;
+    }
+
+    .tittelf {
+        top: 148px;
+    }
+
+    .telf {
+        top: 166px;
+    }
+    footer{
+        height:235px;
+    }
 
 }
 
@@ -3401,6 +3445,53 @@ body {
 
     .menu2 li {
         left: 405px;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .contacto {
+        top: 43px;
+        font-size: 10px;
+    }
+
+    .titdireccion {
+        top: 75px;
+        font-size:8px;
+    }
+
+    .carretera {
+        top: 52px;
+        font-size: 6px;
+    }
+
+    .barrio {
+        top: 64px;
+        right:52px;
+        font-size: 6px;
+    }
+
+    .direccion {
+        display: none;
+    }
+
+    .titcorreo {
+        top: 115px;
+        font-size:8px;
+    }
+
+    .correo {
+        top: 130px;
+        font-size: 6px;
+    }
+
+    .tittelf {
+        top: 142px;
+        font-size:8px;
+    }
+
+    .telf {
+        top: 157px;
+        font-size: 6px;
     }
 }
 
@@ -3608,6 +3699,53 @@ body {
     .menu2 {
         margin-left: -480px;
     }
+
+    .contacto {
+        top: 27px;
+        font-size: 9px;
+    }
+
+    .titdireccion {
+        top: 55px;
+        font-size:7px;
+    }
+
+    .carretera {
+        top: 30px;
+        font-size: 5px;
+    }
+
+    .barrio {
+        top: 40px;
+        right:52px;
+        font-size: 5px;
+    }
+
+
+    .titcorreo {
+        top: 88px;
+        font-size:7px;
+    }
+
+    .correo {
+        top: 104px;
+        font-size: 5px;
+    }
+
+    .tittelf {
+        top: 112px;
+        font-size:7px;
+    }
+
+    .telf {
+        top: 128px;
+        font-size: 5px;
+    }
+
+    footer{
+        top:3000px;
+        height: 190px;
+    }
 }
 
 @media screen and (max-width: 405px) {
@@ -3660,7 +3798,6 @@ body {
         top: 307px;
     }
 
-
     .barramenu {
         width: 40px;
     }
@@ -3707,6 +3844,10 @@ body {
 
     .barra400 {
         display: none;
+    }
+
+    footer{
+        top:2900px;
     }
 
 }
@@ -3772,7 +3913,6 @@ body {
         top: 307px;
     }
 
-
     .barramenu {
         width: 40px;
     }
@@ -3805,7 +3945,17 @@ body {
         margin-bottom: -4px;
     }
 
+    footer{
+        top:2800px;
+    }
 }
+
+@media screen and (max-width: 375px) {
+    footer{
+        top:2750px;
+    }
+}
+
 
 @media screen and (max-width: 365px) {
     .texto1 {
@@ -3868,7 +4018,6 @@ body {
         top: 307px;
     }
 
-
     .barramenu {
         width: 40px;
     }
@@ -3904,7 +4053,61 @@ body {
     .textito p{
         left:10px;
     }
+
+    footer{
+        top: 2710px;
+    }
 }
+
+@media screen and (max-width: 360px){
+    .contacto {
+        top: 27px;
+        font-size: 8px;
+    }
+
+    .titdireccion {
+        top: 55px;
+        font-size:6px;
+    }
+
+    .carretera {
+        top: 30px;
+        font-size: 4px;
+    }
+
+    .barrio {
+        top: 40px;
+        right:52px;
+        font-size: 4px;
+    }
+
+
+    .titcorreo {
+        top: 88px;
+        font-size:6px;
+    }
+
+    .correo {
+        top: 104px;
+        font-size: 4px;
+    }
+
+    .tittelf {
+        top: 112px;
+        font-size:6px;
+    }
+
+    .telf {
+        top: 128px;
+        font-size: 4px;
+    }
+
+    footer{
+        top:2670px;
+        height: 190px;
+    }
+}
+
 
 @media screen and (max-width: 345px) {
     .texto1 {
